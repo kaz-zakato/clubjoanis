@@ -1,0 +1,193 @@
+body {
+	background-image: url('../images/background.png');
+	font: normal normal normal 12px/normal Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+td {
+	font: normal normal normal 12px/normal Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+div {
+	font: normal normal normal 12px/normal Arial, Verdana, Geneva, Helvetica, sans-serif;
+}
+.small {
+	font-size: 11px;
+	font-weight: normal;
+}
+.top{
+	background-image: url('/images/fond_haut.gif');
+	background-repeat: repeat;
+	color: white;
+}
+.menus{
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	/*background-image: url('/images/fond_menus.gif');*/
+	background-repeat: repeat;
+	color: white;
+	font-weight: normal;
+	border: 1px solid white;
+	border-bottom:0;
+	/*padding:1px;*/
+}
+.titres{
+	font-size: 13px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 9px;
+}
+.menu1{
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	/*background-color: #FEFCE7;*/
+	/*background-color:#b3b4c2;*/
+	background-image: url('../images/fond_menu_haut.png');
+	border-top:1px solid white;
+	color: white;
+}
+.content_block{
+	border:1px solid white;
+}
+.menu2{
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background-image: url('/images/fond_menu2.gif');
+	background-repeat: repeat;
+	color: white;
+}
+.menu3{
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background-image: url('/images/fond_menu3.gif');
+	background-repeat: repeat;
+	color: white;
+}
+.menu4{
+	font-size: 12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background-image: url('/images/fond_menu4.gif');
+	background-repeat: repeat;
+	color: white;
+}
+.white {
+	color: white;
+}
+.titre {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight : bold;
+	color: #b3b4c2;
+}
+.stitre {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight : bold;
+	color: white;
+}
+.menutitle{
+	font-weight:bolder;
+	color:#b3b4c2;
+}
+.midlecontent{
+	color:white;
+	border-top:1px solid white;
+	padding-top: 7px; 
+	padding-left: 10px; 
+	background-color: #342925;
+}
+.price{
+	font-weight:bolder;
+	color : #b3b4c2;
+}
+a {
+	color : #b3b4c2;
+}
+/*
+a:visited {
+	color : #003366;
+}
+*/
+a:hover {
+	color: white;
+}
+a.menu {
+	color : white;
+	text-decoration: none
+}
+a.menu:hover {
+	color : #b3b4c2;
+	font-weight: normal;
+	text-decoration: none
+}
+a.menuHeader {
+	color : white;
+	text-decoration: none
+}
+a.menuHeader:hover {
+	color : #b3b4c2;
+	font-weight: normal;
+	text-decoration: none
+}
+
+a.menuSelected {
+	color : #9a9cc1;
+	font-weight: bold;
+	text-decoration: none
+}
+a.menuSelected:hover {
+	color : #B3B4C2;
+	font-weight: bold;
+	text-decoration: none
+}
+
+a.menuHeaderSelected {
+	color : #313131;
+	font-weight: bold;
+	text-decoration: none
+}
+a.menuHeaderSelected:hover {
+	color : #313131;
+	font-weight: bold;
+	text-decoration: none
+}
+
+.Bsbttn {
+	font-size: 12px;
+	background: lightgrey;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	color : black;
+	padding: 2px;
+	text-decoration:none;
+	cursor:pointer;
+	cursor:hand;
+}
+input
+{
+	background-color : #FFFFFF ;
+	color : #000000 ;
+	font-size : 10pt ;
+	font-weight : normal ;
+	border : 1px solid #003366;
+}
+input.normal
+{
+	background-color : #FFFFFF ;
+	color : #000000 ;
+	font-size : 10pt ;
+	font-weight : normal ;
+	border : 0px solid #003366;
+
+}
+textarea
+{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	background-color : #FFFFFF ;
+	color : #000000 ;
+	font-size : 10pt ;
+	font-weight : normal ;
+	border : 1px solid #003366;
+
+}

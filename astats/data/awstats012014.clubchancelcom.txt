@@ -1,0 +1,762 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2014-01 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2551                
+POS_VISITOR 13001               
+POS_DAY 23301               
+POS_DOMAIN 3406                
+POS_LOGIN 3639                
+POS_ROBOT 3828                
+POS_WORMS 4403                
+POS_EMAILSENDER 4534                
+POS_EMAILRECEIVER 4677                
+POS_SESSION 23824               
+POS_SIDER 24034               
+POS_FILETYPES 4812                
+POS_OS 4982                
+POS_BROWSER 5158                
+POS_SCREENSIZE 5593                
+POS_UNKNOWNREFERER 5667                
+POS_UNKNOWNREFERERBROWSER 6944                
+POS_ORIGIN 7504                
+POS_SEREFERRALS 7649                
+POS_PAGEREFS 7806                
+POS_SEARCHWORDS 11287               
+POS_KEYWORDS 11439               
+POS_MISC 2215                
+POS_ERRORS 11498               
+POS_CLUSTER 3495                
+POS_SIDER_404 11655               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140201000041 5825 1275905 41856143628
+FirstTime 20140115112504
+LastTime 20140131220011
+LastUpdate 20140201054501 5825 5527 297 0 0
+TotalVisits 534                 
+TotalUnique 246                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 264                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 29 452517 21 26 210593
+1 137 171 2439300 40 46 295592
+2 68 117 1278683 52 57 859371
+3 74 112 1302088 30 31 263265
+4 95 182 1725252 43 44 276292
+5 82 107 1374916 30 33 277376
+6 50 167 1228845 32 32 317614
+7 29 47 501325 38 43 312386
+8 71 156 1237659 33 37 294866
+9 88 111 1402311 23 28 143625
+10 100 451 1823434 36 40 266678
+11 45 163 921833 41 43 395668
+12 85 585 1707311 35 37 302605
+13 82 203 1682392 36 39 274224
+14 101 331 1721525 47 62 367490
+15 93 502 1621747 47 53 336841
+16 37 83 723465 36 36 345859
+17 85 183 1612625 36 37 377183
+18 117 330 2439086 39 41 377815
+19 69 147 1321026 50 54 528208
+20 154 335 3068781 32 37 323811
+21 63 81 1079329 35 39 291554
+22 28 63 542630 44 51 666482
+23 59 80 1027083 32 40 286813
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1840 4736 34235163
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+sarah 44 44 528348 20140127143012
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+googlebot 266 3958102 20140131220206 0
+robot 123 1934284 20140131225904 0
+yandex 84 649459 20140131232935 0
+baiduspider 25 400949 20140131154932 0
+crawl 13 222420 20140131043427 0
+voila 7 120330 20140131025447 0
+msiecrawler 6 96450 20140123015049 0
+spider 4 61222 20140128084547 0
+msnbot 3 308067 20140121024836 0
+arks 3 48225 20140123015043 0
+python 1 16045 20140124171212 0
+surveybot 1 16045 20140127111158 0
+slurp 3 47928 20140131051055 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 46 628877 0 0
+css 207 357612 0 0
+html 711 11254628 0 0
+jpg 723 3543961 0 0
+php4 1083 17862602 0 0
+gif 1966 587483 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 294
+winxp 424
+unix 3
+win2000 34
+winnt 2411
+win98 39
+linux 268
+winme 7
+win16 6
+macosx 601
+win95 1
+win2003 43
+wince 9
+Unknown 596
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+msie6.0 293
+firefox20.0 1
+netscape4.61 3
+firefox17.0 130
+firefox26.0 595
+opera 91
+firefox13.0 14
+firefox21.0 1
+msie4.01 6
+firefox18.0 1
+curl 4
+firefox7.0.1 1
+msie5.5 25
+msie3.02 9
+netscape4.79 3
+msie8.0 32
+firefox0.10.1 2
+firefox6.0.2 1
+firefox25.0 14
+mozilla 2198
+netscape3.0 6
+firefox14.0.1 10
+msie7.0 17
+msie10.0 45
+firefox6.0 5
+wget 2
+msie5.0 6
+msie9.0 31
+Unknown 113
+safari 1077
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 18
+Mozilla/5.0_(compatible;_spbot/4.0.6;__http://www.seoprofiler.com/bot_) 20140129101413
+Mozilla/5.0_(compatible;_meanpathbot/1.0;__http://www.meanpath.com/meanpathbot.html) 20140122084552
+Ruby 20140126201719
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20140122165619
+- 20140128041151
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20140131195129
+Mozilla/4.0_(compatible) 20140127110044
+niki-bot 20140122100426
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20140131130834
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20140120090146
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140121142810
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140131173532
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20140131080327
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140119031112
+Mozilla/5.0_(compatible;_SemrushBot/0.97;__http://www.semrush.com/bot.html) 20140118223053
+nutch-1.4/Nutch-1.4 20140120072113
+Java/1.6.0_04 20140128092804
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.4;_http://www.majestic12.co.uk/bot.php?_) 20140131201436
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Wotbox/2.01_(_http://www.wotbox.com/bot/) 20140120090146
+Ruby 20140126201719
+- 20140128041151
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140121142810
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20140131080327
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140119031112
+nutch-1.4/Nutch-1.4 20140120072113
+niki-bot 20140122100426
+Java/1.6.0_04 20140128092804
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 633 846
+From1 0 0
+From2 10 10
+From3 522 522
+From4 675 3358
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 10 10
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 110
+http://www.val-joanis.com/fr/reserve_griottes.html 27 27
+http://www.val-joanis.com/fr/chateau_rouge.html 26 26
+http://doska-vsem.ru 21 21
+http://translate.googleusercontent.com/translate_c 12 12
+http://brendbutik.ru 9 9
+http://xxx-treker.ru 9 9
+http://101flag.ru 9 9
+http://strana-solnca.ru 9 9
+http://wetgames.ru 9 9
+http://www.avtoarenda.by 9 9
+http://www.friendhand.ru 6 6
+http://sonyblog.ru 6 6
+http://www.val-joanis.com/eng/chateau_rose.html 1 1
+http://zena-na-chas-moscow.ru 3 3
+http://stroydetali.ru 3 3
+http://www.papa-web.ru 3 3
+http://chimiver.info 3 3
+http://www.svetlotorg.ru 2 2
+http://komportal.ru 3 3
+http://ganja-seeds.net 6 6
+http://master-muznachas.ru 6 6
+http://xn--h1ahbi.com.ua 3 3
+http://snjatie-geroinovoy-lomki.ru 6 6
+http://www.moneyclone.ru 3 3
+http://www.val-joanis.com/fr/reserve_aubepines.html 1 1
+http://medicinacom.ru 6 6
+http://www.artparquet.ru 3 3
+http://porno-play.net 6 6
+http://my-bc.ru 6 6
+http://narkologiya-belgorod.ru 3 3
+http://gcup.ru/games/Ant/ 3 3
+http://cookingmeat.ru 3 3
+http://loadka.ru/news 2 2
+http://erotikstories.ru 3 3
+http://www.reklamuss.ru 3 3
+http://www.val-joanis.com/fr/reserve_merises.html 5 5
+http://girls-ufa.ru 3 3
+http://onload.pw 3 3
+http://diplopolyt.org 3 3
+http://flash-igry.net 3 3
+http://seryeznie-znakomstva.ru 3 3
+http://monylony.net 6 6
+http://looking-auto.com/gallery.php 6 6
+http://www.101suvenir.ru 3 3
+http://volume-pills.biz 3 3
+http://sexmsk.nl 6 6
+http://welcomeauto.ru 3 3
+http://volume-pills.biz 3 3
+http://clubchamps88.com 1 1
+http://www.sportbetfair.com 3 3
+http://futbolkisales.ru 6 6
+http://ozporno.net 3 3
+http://www.xn----7sbfejdvocrv7adem.xn--p1ai 2 2
+http://oklogistic.ru 3 3
+http://mesto-x.com 3 3
+http://blackwitchcraft.ru 3 3
+http://deda-moroza-zakaz.ru 6 6
+http://www.forex21.ru 3 3
+http://megavolt.net.ua 6 6
+http://narkologiya-peterburg.ru 3 3
+http://www.astrakhans.ru 3 3
+http://www.ooo-gotovie.ru 3 3
+http://avtojur.ru 3 3
+http://bimatoprost-careprost.com.ua 3 3
+http://www.onefilms.net 3 3
+http://www.val-joanis.com/fr/chateau_blanc.html 5 5
+http://vigrx-original.ru 6 6
+http://delayreferat.ru 3 3
+http://seksotur.ru 3 3
+http://w12files.com 6 6
+http://sexvgorode.ru 3 3
+http://stop-drugs.net 6 6
+http://www.spy-sts.com 3 3
+http://master-remont-tehniki.ru 3 3
+http://silverage.ru 6 6
+http://www.kasholka.ru 3 3
+http://romhacking.net.ru 5 5
+http://ublaze.ru 3 3
+http://jennyfire.ru 6 6
+http://www.val-joanis.com/eng/chateau_rouge.html 6 6
+http://sdelatmebel.ru 3 3
+http://narkologiya-penza.ru 6 6
+http://evoque.ru 3 3
+http://x-musics.com 3 3
+http://tiandeural.ru 3 3
+http://lenoreno.com 3 3
+http://narkologiya-orel.ru 3 3
+http://www.val-joanis.com/eng/reserve_griottes.html 4 4
+http://resineusa.biz 6 6
+http://domainsigma.com/whois/clubchancel.com 5 5
+http://adult-picture.net 3 3
+http://detalizaciya-tut.biz 3 3
+http://pornoforadult.com 3 3
+http://pereezd136.ru 3 3
+http://remont-mobile-phones.ru 6 6
+http://www.val-joanis.com/fr/chateau_rose.html 2 2
+http://kinohit1.ru 6 6
+http://imperia31.ru 3 3
+http://cleaning-uborka.ru 3 3
+http://priora-2.com 3 3
+http://prank.su 9 9
+http://www.koptims.tiu.ru 6 6
+http://hronikizakata.ru 3 3
+http://www.arenda.triumf-realty.ru 2 2
+http://prodoctorel.net 3 3
+http://samo-cvet.com 3 3
+http://selagrary.biz 6 6
+http://buy-tramadolonline.org 3 3
+http://pc-torrent.ru 3 3
+http://club-musics.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 17 19371
+401 4 6089
+302 19 0
+206 15 69136
+406 3 1272
+301 2 630
+404 387 416187
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 20
+/robots.txt 353 -
+/apple-touch-icon.png 3 -
+/admin.php 3 -
+/administrator/index.php 2 -
+/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 http://CLUBCHANCEL.COM/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html
+/wordpress/wp-admin/ 1 -
+/wp-admin/ 1 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html 1 http://CLUBCHANCEL.COM/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/uploadtest.html
+/js/fckeditor/editor/filemanager/connectors/uploadtest.html 1 http://CLUBCHANCEL.COM/js/fckeditor/editor/filemanager/connectors/uploadtest.html
+/administrator/ 1 -
+/images/btles/griottes.jpg 3 http://www.clubchancel.com/admin/product.php4
+/FileManagerData/note.gif 1 -
+/administrator 1 -
+/blog/wp-admin/ 1 -
+/FileManager/FileManagerData/note.gif 1 -
+/images/btles/mini/griottes.jpg 3 http://www.clubchancel.com/admin/product.php4
+/browserconfig.xml 1 -
+/wp-login.php 6 -
+/components/com_content/router.php 2 -
+/images_mailclub/http.gif 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 264
+121.98.113.22 128 228 2536195 20140131115830
+80.13.175.106 95 1381 1537458 20140131105645
+72.233.81.194 59 59 987672 20140128204924
+178.137.86.76 54 54 867690 20140125195428
+46.118.152.207 54 54 867510 20140126003823
+87.254.243.148 49 90 857486 20140120143859
+162.243.106.111 44 44 723706 20140121054625
+162.243.87.65 44 44 723706 20140119011502
+162.243.27.245 44 44 722884 20140129101413
+81.144.138.34 44 44 723701 20140120090146
+65.55.24.218 1 1 14232 20140130195112
+87.49.165.100 3 21 96837 20140125213515
+86.210.203.106 16 38 598584 20140127062712
+82.193.99.33 24 24 385440 20140131140525
+157.56.92.150 1 1 15798 20140119052259
+89.123.3.245 31 31 409519 20140128092804
+199.30.24.6 0 13 34692 
+46.218.231.1 1 13 56854 20140129141000
+217.69.133.169 1 1 16075 20140123035818
+157.55.35.99 2 2 32090 20140128012029
+5.56.63.85 1 1 16045 20140131080327
+157.55.36.36 1 1 14258 20140121165444
+157.55.33.248 0 1 47 
+199.30.24.200 0 7 8440 
+88.138.31.101 15 36 328177 20140119230205
+84.92.46.192 3 19 86366 20140127144046
+72.232.216.2 9 9 152602 20140129212709
+208.43.225.85 1 1 24684 20140122165619
+23.80.132.202 1 14 50737 20140126021503
+207.182.143.146 2 2 45513 20140122100426
+83.154.24.217 5 23 134543 20140120193930
+62.201.136.164 2 20 80792 20140119131850
+157.55.33.38 2 2 40794 20140121110918
+89.189.191.30 1 1 16075 20140116014050
+157.56.229.88 1 1 24663 20140125115614
+157.55.36.45 1 1 15270 20140117042824
+157.56.229.188 1 1 15209 20140121053136
+199.30.24.171 0 13 34692 
+65.55.52.88 14 23 207193 20140123193603
+87.67.39.116 5 23 141207 20140128201322
+193.43.252.252 3 3 46097 20140124192635
+157.55.33.112 0 2 7012 
+157.55.32.88 3 3 48198 20140120134713
+202.46.63.90 1 1 16045 20140125135802
+65.55.24.237 0 2 3553 
+157.56.93.42 2 2 39916 20140126202647
+174.31.165.234 3 23 81808 20140129075508
+157.55.35.83 3 3 48319 20140126200929
+65.55.24.215 1 1 24663 20140127174549
+198.27.82.153 1 1 16075 20140116090447
+82.250.239.62 3 20 89350 20140115180507
+157.56.92.143 1 5 18510 20140122092434
+162.243.206.224 2 6 56453 20140126201717
+192.96.204.42 5 5 0 20140131174946
+87.15.109.192 32 56 580322 20140116175204
+157.56.93.60 2 2 31298 20140127161829
+157.55.36.39 1 2 18746 20140117173332
+46.105.59.74 1 1 0 20140126180944
+157.55.33.250 2 2 38286 20140123124118
+178.137.90.83 33 33 529485 20140131132756
+157.55.32.144 1 1 15778 20140124071137
+157.55.33.103 3 3 44549 20140124155358
+95.211.238.122 7 7 104931 20140117050736
+157.56.92.176 2 2 16993 20140118084744
+37.128.215.245 14 36 314217 20140119202550
+78.218.20.93 8 28 195418 20140118112537
+83.149.126.98 2 2 32120 20140123221526
+162.243.236.92 1 1 16075 20140121132341
+148.251.14.166 6 6 103884 20140131003636
+66.249.80.150 12 12 238143 20140124022917
+88.166.115.189 1 14 50767 20140115165010
+90.27.243.224 20 43 398141 20140122184730
+162.243.48.48 1 1 16075 20140116164940
+37.115.112.69 33 33 530115 20140128063714
+157.55.33.86 4 4 72919 20140128101354
+157.55.35.88 1 1 18791 20140115120203
+157.55.35.109 8 8 131054 20140121163139
+93.12.143.36 8 113 236313 20140131064346
+157.55.33.18 1 1 15189 20140123230415
+157.55.35.80 1 1 14232 20140125052055
+174.127.133.64 1 1 22178 20140117024810
+77.254.236.197 10 33 245610 20140119193155
+157.55.34.178 1 1 15215 20140120210704
+66.232.104.101 1 12 44404 20140121135331
+86.217.61.92 7 27 162656 20140117181225
+157.55.32.226 1 1 15240 20140116113010
+157.56.93.51 1 1 15211 20140130083555
+134.249.53.119 24 24 385800 20140119165523
+79.98.16.81 2 2 0 20140126170720
+92.249.127.111 27 27 433575 20140130123354
+117.78.13.17 2 2 32150 20140120072113
+199.30.24.156 0 2 882 
+109.11.216.154 6 24 150885 20140130123714
+198.27.82.189 1 1 16075 20140122084552
+65.55.52.97 1 1 15240 20140116102738
+65.55.213.44 1 2 19581 20140120083313
+78.239.119.205 12 33 259350 20140117074055
+144.76.151.53 1 1 14236 20140126142059
+213.52.200.114 1 14 50737 20140130180600
+92.158.72.185 22 65 468318 20140130185337
+80.215.134.39 1 14 50737 20140126165326
+157.55.33.108 1 1 17651 20140122150321
+202.46.56.47 1 1 16045 20140124202051
+88.167.180.51 4 17 94982 20140119083051
+157.55.32.219 1 1 13481 20140121190333
+157.55.34.29 3 3 47288 20140125105140
+178.137.128.226 6 6 96270 20140130134308
+157.55.32.111 1 1 15272 20140117215325
+66.232.104.112 2 26 113606 20140125080851
+157.55.35.50 1 1 15250 20140129212949
+90.8.119.64 4 24 118968 20140115163431
+174.127.133.95 5 5 69129 20140117024855
+109.120.157.179 10 10 160570 20140131130834
+157.55.33.81 2 7 47024 20140129214654
+83.201.200.52 5 23 133122 20140128203627
+193.111.141.134 1 1 22178 20140116214453
+92.150.106.128 4 22 119761 20140124180612
+157.56.93.52 1 1 15217 20140131105950
+65.55.24.236 11 11 172908 20140130084158
+176.57.142.28 1 1 14253 20140121142757
+202.46.58.34 1 1 16075 20140117235018
+86.204.99.121 6 25 153942 20140123225501
+148.251.8.37 1 1 14236 20140124075800
+193.192.58.164 1 1 15675 20140115183259
+172.246.147.196 1 1 16045 20140127110023
+89.82.175.168 1 1 16045 20140126103038
+82.240.234.179 6 26 168335 20140118121727
+193.111.141.116 1 1 24663 20140130065709
+157.55.32.162 0 4 21554 
+157.55.32.221 1 1 16075 20140121112658
+157.55.33.110 3 3 48225 20140116193420
+157.55.32.222 2 2 40729 20140131102138
+86.213.183.145 10 29 214616 20140129135422
+66.220.152.115 1 1 17651 20140121142810
+157.55.33.39 3 3 48135 20140125022701
+157.55.33.19 1 1 24684 20140117070023
+157.55.32.56 2 2 35466 20140124131832
+157.56.93.85 3 6 57219 20140118165906
+92.150.66.103 8 29 174374 20140124150709
+199.30.25.122 0 3 21512 
+162.243.121.213 1 1 14236 20140126114509
+157.55.34.179 2 2 35071 20140118203838
+69.58.178.58 11 11 180324 20140119031117
+65.55.24.220 3 3 47368 20140116215642
+69.30.238.18 2 2 28512 20140120152500
+24.114.77.204 1 1 22620 20140118040046
+178.137.94.155 36 36 577620 20140131172442
+96.227.124.37 1 1 16045 20140124142816
+157.55.35.114 1 1 24684 20140119103740
+78.113.236.184 5 21 125871 20140129215015
+157.55.32.94 1 1 15211 20140128003117
+176.186.93.12 2 17 68054 20140129104622
+66.232.104.107 1 13 56793 20140125051425
+142.54.184.10 2 2 28472 20140131201436
+91.44.115.174 1 14 50737 20140131205114
+157.55.32.146 1 1 24684 20140123100511
+83.77.244.197 34 69 611518 20140121204626
+157.55.33.79 2 2 30400 20140127102800
+82.123.140.26 21 56 409162 20140124152124
+199.30.25.136 0 9 26101 
+90.24.184.235 2 17 69587 20140127015314
+119.63.193.195 1 1 16075 20140117235042
+199.30.25.192 0 3 432 
+46.229.164.101 1 1 16075 20140118223053
+92.90.16.187 2 18 69747 20140124222257
+157.55.35.43 1 1 15215 20140116031402
+54.201.30.122 3 3 46097 20140125041119
+162.210.196.100 2 2 28512 20140117135110
+157.56.93.153 0 1 3506 
+157.55.33.21 2 2 49610 20140118060324
+86.63.249.36 3 21 95767 20140126125941
+174.127.133.91 4 4 66763 20140117032116
+109.21.171.136 1 14 50767 20140122185614
+157.55.32.84 1 1 17549 20140122025311
+90.96.113.200 1 14 50737 20140123182329
+157.56.92.156 1 1 15664 20140126064509
+157.55.35.85 2 2 38253 20140121071358
+94.153.65.189 6 6 96270 20140129133323
+94.153.64.193 21 21 337215 20140127172531
+208.115.111.71 17 17 287265 20140130234126
+199.101.103.130 1 1 16075 20140118161638
+199.30.24.15 0 13 34692 
+213.241.53.3 6 24 155854 20140120135310
+119.63.193.194 2 2 32090 20140128175651
+37.115.112.240 6 6 96270 20140131220011
+191.235.137.27 1 1 16045 20140126142759
+157.55.32.77 2 2 27685 20140131185103
+78.229.26.43 13 32 254734 20140115124750
+94.226.47.222 3 21 95888 20140130111125
+174.127.132.10 1 1 16075 20140117004210
+86.193.233.147 3 21 97162 20140128183603
+8.28.16.254 1 1 15209 20140129154930
+91.238.134.236 1 1 16045 20140127134502
+182.236.163.238 2 2 30586 20140127110044
+157.55.35.100 1 1 17388 20140115113619
+157.55.32.81 6 10 96059 20140131061708
+78.122.118.66 12 34 247860 20140116093853
+157.56.93.96 1 5 40378 20140122070312
+82.240.86.190 1 14 50767 20140115112504
+198.27.82.161 1 1 16075 20140116011452
+65.55.52.111 0 1 3506 
+69.197.129.42 2 2 28512 20140122124539
+157.55.35.90 1 3 28358 20140123041935
+86.197.201.112 6 26 158816 20140118194311
+157.55.36.35 1 1 17631 20140127235550
+82.237.115.246 8 29 191960 20140130182656
+134.249.49.231 27 27 433215 20140131040502
+157.55.35.33 1 1 24684 20140118120159
+94.153.65.238 6 6 96450 20140116152718
+157.55.32.100 8 8 123955 20140127105802
+92.155.135.154 7 27 163967 20140127125721
+196.215.88.54 24 25 373270 20140128041151
+72.136.123.81 6 44 221344 20140127140136
+162.243.104.13 1 1 16075 20140115154406
+194.206.6.19 1 14 50737 20140127191226
+90.61.45.119 10 29 222273 20140117195257
+157.55.35.37 1 1 15226 20140123121054
+65.55.52.89 2 2 26848 20140115191336
+202.46.60.14 1 1 16075 20140123035024
+157.55.33.183 3 3 52831 20140127115440
+178.137.129.103 12 12 192900 20140120230317
+192.99.0.75 1 1 16045 20140128023254
+90.8.127.225 3 19 86446 20140118202004
+157.55.33.104 23 23 339667 20140121002426
+76.182.246.112 1 1 14236 20140124133305
+157.56.229.23 1 1 16045 20140131195129
+202.46.57.64 1 1 16045 20140125095016
+98.24.159.23 1 13 50045 20140120172208
+157.55.32.143 1 1 16045 20140128212838
+157.55.35.45 1 1 16045 20140125110537
+65.55.55.231 2 2 30525 20140118111904
+162.251.164.11 1 1 16075 20140122171026
+157.55.33.77 2 2 31141 20140115220504
+157.55.32.98 0 1 3506 
+193.111.141.54 1 1 16110 20140115183257
+190.208.57.98 1 1 16075 20140121224633
+188.232.136.236 1 1 16075 20140118000003
+157.55.33.114 1 1 16075 20140121235534
+199.30.25.214 0 8 33556 
+77.196.73.212 1 14 50737 20140126102829
+157.55.32.229 5 7 80033 20140119034844
+119.63.193.196 1 1 16045 20140124202241
+174.127.133.87 7 7 128100 20140117032813
+157.56.93.154 0 1 47 
+195.242.218.133 12 12 192720 20140129073451
+99.253.244.3 34 132 755626 20140121053548
+202.46.49.19 1 1 16045 20140128175613
+157.56.93.148 6 7 113208 20140130162305
+199.30.25.201 0 13 34692 
+174.127.133.94 5 5 92581 20140117032443
+157.55.33.49 1 1 15273 20140121062153
+178.137.161.36 27 27 433755 20140125031539
+157.55.35.91 2 2 29254 20140123154145
+157.56.93.61 4 4 64180 20140124132013
+194.2.122.158 3 3 0 20140124152322
+119.63.193.130 2 2 32120 20140125135847
+157.55.35.87 6 6 90197 20140126144528
+109.68.191.150 8 8 124434 20140123185339
+157.55.34.25 1 1 15215 20140123041308
+62.212.73.211 1 1 16045 20140126151851
+208.115.113.87 34 34 537006 20140131173532
+89.72.32.76 1 19 66781 20140120140657
+157.56.92.175 3 3 48176 20140115225221
+157.55.33.100 10 10 165390 20140118065747
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 17
+20140115 55 346 1164011 24
+20140116 135 311 2512224 32
+20140117 100 198 1833171 39
+20140118 83 175 1600907 38
+20140119 150 260 2785579 33
+20140120 156 301 2791470 30
+20140121 131 190 2259727 35
+20140122 69 127 1290318 28
+20140123 88 372 1664969 34
+20140124 186 713 3453131 32
+20140125 55 80 973968 27
+20140126 57 119 1058807 33
+20140127 136 439 2872229 36
+20140128 170 266 3003229 28
+20140129 141 389 2504508 35
+20140130 61 182 1321841 24
+20140131 67 268 1145074 26
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 22
+2mn-5mn 10
+30s-2mn 24
+15mn-30mn 6
+0s-30s 458
+30mn-1h 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 33
+/ 709 11222538 350 276
+/product_list.php4 453 8233330 59 108
+/product.php4 332 5360292 84 95
+/login.php4 49 592562 12 12
+/recettes.php4 48 672808 9 7
+/cart.php4 44 664527 0 3
+/cgdv.php4 34 740978 9 11
+/index.php 30 466670 7 6
+//login.php4 27 333101 0 1
+/admin/product.php4 22 346962 0 0
+//contact.php4 2 29082 0 0
+/contact.php4 17 242882 1 5
+//recettes.php4 2 26922 0 0
+// 2 32090 0 1
+//account.php4 1 19277 0 0
+/confirm.php4 1 12659 0 1
+/inc/e-transaction/autoresponse.php 3 0 3 3
+/admin/home.php4 7 62186 0 1
+/admin/objet.php4 2 28074 0 0
+/mentions.php 1 1790 0 0
+//checkout.php4 2 31659 0 0
+/account.php4 7 130067 0 1
+//index.php 10 156837 0 0
+/admin/recettes.php4 1 8808 0 0
+//cgdv.php4 2 44438 0 0
+/admin/liste_objets.php4 6 41928 0 0
+/checkout.php4 4 64712 0 2
+//mentions.php 2 3580 0 0
+//cart.php4 8 50186 0 0
+/admin/domaines.php4 3 20135 0 0
+//product.php4 2 1836 0 0
+/admin/appellations.php4 3 20255 0 0
+//product_list.php4 4 82936 0 1
+END_SIDER

@@ -1,0 +1,793 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2010-09 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2560                
+POS_VISITOR 12454               
+POS_DAY 22530               
+POS_DOMAIN 3420                
+POS_LOGIN 3653                
+POS_ROBOT 3808                
+POS_WORMS 4426                
+POS_EMAILSENDER 4557                
+POS_EMAILRECEIVER 4700                
+POS_SESSION 23366               
+POS_SIDER 23570               
+POS_FILETYPES 4835                
+POS_OS 5006                
+POS_BROWSER 5149                
+POS_SCREENSIZE 5568                
+POS_UNKNOWNREFERER 5642                
+POS_UNKNOWNREFERERBROWSER 6540                
+POS_ORIGIN 6974                
+POS_SEREFERRALS 7119                
+POS_PAGEREFS 7308                
+POS_SEARCHWORDS 8345                
+POS_KEYWORDS 10151               
+POS_MISC 2222                
+POS_ERRORS 11115               
+POS_CLUSTER 3509                
+POS_SIDER_404 11236               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101001000242 246958 62317623 57145683507
+FirstTime 20100901004812
+LastTime 20100930235150
+LastUpdate 20101001054518 246958 246807 150 0 0
+TotalVisits 311                 
+TotalUnique 244                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 252                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 150 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 20 131596 67 74 1045006
+1 5 22 133844 99 111 1350413
+2 6 8 122046 110 126 1714164
+3 3 18 91810 131 146 2149883
+4 5 5 84912 152 163 2577851
+5 19 70 506017 152 168 2298137
+6 21 43 457375 119 130 2027364
+7 31 88 775169 82 92 1244743
+8 37 146 984667 52 59 745478
+9 318 550 6869005 56 64 772614
+10 28 174 863201 70 86 1116078
+11 61 403 2165848 57 63 667464
+12 65 695 1914156 85 101 1324305
+13 52 305 1688663 30 41 485588
+14 64 319 1958370 56 68 856385
+15 70 303 2049213 63 77 986164
+16 43 216 1197613 54 69 737970
+17 107 588 3429631 46 56 674318
+18 61 424 2169754 58 74 815673
+19 54 226 1412118 76 90 949967
+20 64 410 1936778 48 56 632952
+21 134 411 3289944 64 81 797282
+22 106 278 2385385 60 67 734359
+23 49 206 1357659 54 62 734246
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1408 5928 37974774
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+slurp 724 9468826 20100930212825 0
+voila 433 8296549 20100930102725 0
+yandex 191 3730437 20100930195856 0
+googlebot 129 1545493 20100930204234 0
+msnbot 95 2067234 20100930213024 0
+robot 32 601214 20100927153427 0
+psbot 29 527617 20100905190340 0
+crawl 26 479210 20100913181639 0
+speedy 6 112966 20100929125240 0
+surveybot 3 54147 20100926011030 0
+python 1 18049 20100917144328 0
+jeeves 1 18061 20100904172055 0
+ia_archiver 1 18017 20100901143914 0
+turnitinbot 1 18049 20100924053339 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 49 760191 0 0
+css 244 687916 0 0
+html 253 4595797 0 0
+jpg 1812 7819716 0 0
+php4 1106 22937805 0 0
+gif 2464 1173349 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 1187
+winxp 2824
+unix 1
+win2000 10
+winnt 857
+linux 62
+winme 1
+macosx 688
+win2003 63
+Unknown 235
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 26
+msie6.0 249
+firefox3.5.13 32
+netscape4.61 1
+firefox3.6 40
+opera 9
+firefox3.6.6 39
+curl 2
+msie5.5 1
+firefox3.5.3 10
+firefox3.5.10 33
+firefox3.5.12 25
+msie8.0 2405
+firefox3.5.5 23
+firefox1.0 1
+mozilla 108
+netscape3.0 1
+msie7.0 997
+netscape4.0 2
+firefox3.6.3 25
+firefox3.6.9 121
+firefox3.6.10 404
+firefox3.5.11 14
+firefox3.0.19 25
+Unknown 114
+firefox3.6.8 455
+safari 792
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/5.0_(en-us)_AppleWebKit/525.13_(KHTML,_like_Gecko;_Google_Wireless_Transcoder)_Version/3.1_Safari/525.13 20100929211003
+TwengaBot-Discover_(http://www.twenga.fr/bot-discover.html) 20100902221857
+Mozilla/5.0_(compatible;_Plukkie/1.3;_http://www.botje.com/plukkie.htm) 20100910192357
+Mozilla/4.0 20100917145458
+- 20100930222258
+Jakarta_Commons-HttpClient/3.1 20100923202408
+Mozilla/5.0_(compatible;_Purebot/1.1;__http://www.puritysearch.net/) 20100905210425
+Mozilla/4.0_(compatible;) 20100926010305
+Domnutch-Bot/Nutch-1.0_(Domnutch;_http://www.Nutch.de/) 20100901144652
+Java/1.6.0_04 20100902192419
+Mozilla/5.0_(compatible;_http://www.whoisde.de/2.1;__http://www.whoisde.de) 20100926114648
+GeoHasher/Nutch-1.0_(GeoHasher_Web_Search_Engine;_geohasher.gotdns.org;_geo_hasher_at_yahoo_*_com) 20100928183610
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Jakarta_Commons-HttpClient/3.1 20100923202408
+- 20100930222258
+TwengaBot-Discover_(http://www.twenga.fr/bot-discover.html) 20100902221857
+Domnutch-Bot/Nutch-1.0_(Domnutch;_http://www.Nutch.de/) 20100901144652
+Java/1.6.0_04 20100902192419
+GeoHasher/Nutch-1.0_(GeoHasher_Web_Search_Engine;_geohasher.gotdns.org;_geo_hasher_at_yahoo_*_com) 20100928183610
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 669 671
+From1 0 0
+From2 82 83
+From3 152 152
+From4 505 5022
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 74 75
+search 1 1
+yandex 1 1
+yahoo 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 18
+http://www.val-joanis.com/fr/chateau_rouge.html 59 59
+http://www.val-joanis.com/fr/reserve_griottes.html 35 35
+http://www.val-joanis.com/fr/chateau_rose.html 12 12
+http://webmail1k.orange.fr/webmail/fr_FR/read.html 8 8
+http://www.val-joanis.com/fr/reserve_chanoine.html 8 8
+http://www.val-joanis.com/fr/chateau_blanc.html 7 7
+http://www.val-joanis.com/eng/reserve_griottes.html 5 5
+http://www.val-joanis.com/fr/reserve_merises.html 3 3
+http://www.val-joanis.com/eng/chateau_rose.html 3 3
+http://www.val-joanis.com/eng/chateau_rouge.html 3 3
+http://lapassionduvin.com/phorum/read.php 1 1
+http://www.val-joanis.com/fr/reserve_agasses.html 2 2
+http://www.blitz-news.eu 1 1
+http://www.2480.kbvision-info.de 1 1
+http://www.whoisde.de 1 1
+http://www.val-joanis.com/fr/reserve_aubepines.html 1 1
+http://val-joanis.com/fr/chateau_blanc.html 1 1
+http://val-joanis.com/fr/reserve_griottes.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 58
+famille+chancel 7
+domaine+chancel 3
+valjoanis+blanc 2
+chateau+andrieu+vin 2
+pere+chancel 2
+chateau+val+joanis+cotes+du+luberon 2
+achat+vins+du+luberon 2
+clubchancel 2
+val+joanis+rouge+2006 2
+domaines+chancel 2
+fleurs+blanches+vin 1
+chanoine+trouillet+aoc+cotes+du+luberon 1
+domaine+saint+andrieu 1
+vin+les+agasses+voignier 1
+pere+chancel+jsp 1
+ch%c3%a2teau+val+joanis+les+griottes+2007 1
+ou+acheter+vin+val+joanis+%c3%a0+paris 1
+vins+chancel 1
+val+joanis+ros%c3%a9 1
+%fd%ea%f1%f2%f0%e0%ef%ee%eb%ff%f6%e8%ff 1
+p%c3%a8re+chancel 1
+val+joanis+luberon 1
+info@clubchancel.com 1
+le+luberon+est+il+un+vin+sec 1
+chateau+val+joanis+cotes+du+luberon+rouge+provence+france 1
+chancel+et+fils+rose+2006 1
+la+boutique+du+pere+chancel 1
+cote+du+luberon+chateau+val+joanis+2009 1
+domaines+famille+chancel 1
+reserve+griottes 1
+louis+barthelemy+champagne 1
+chateau+val+joanis+les+griottes+2006 1
+cotes+du+luberon+exceptionnel 1
+le+pere+chancel 1
+vin+val+joanis 2
+p%c3%a8re+chancel+la+boutique 1
+robert+parker+j%e2%80%99ai+l%e2%80%99impression+de+boire+un+grand+ch%c3%a2teauneuf-du-pape+. 1
+ch%c3%a2teau+val+joanis+les+griottes+2006 1
+elevages+d+oiseaux+au+vaucluse 1
+luberon+joanis 1
+chateau+val+b 2
+pere-+chancel.com 2
+chateau+val+joanis+2007 1
+prix+de+la+bouteille+de+vin+rose+joannis+de+2007 1
+chancel+vin 1
+cote+du+luberon+rouge+recettes 1
+huile+olive+c%c3%a9cile 2
+boutique+de+vente+pere+chancel 1
+http+//www.clubchancel.com/ 1
+val+joanis+rouge+2005 1
+vin+chateau+val+joanis 1
+le+luberon+rose+est+il+un+vin+sec 1
+ch%c3%a2teau+val+joanis+2006+rouge 1
+les+griottes+r%c3%a9serve 1
+domaine+val+d+anrieu 1
+note+un+rose+chanoine 1
+val+joanis+les+griottes 1
+joanis+vente 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 91
+chancel 24
+val 22
+joanis 21
+luberon 13
+vin 12
+chateau 11
+du 10
+famille 8
+pere 6
+griottes 6
+2005 1
+vente 2
+le 3
+d 2
+ros%c3%a9 1
+trouillet 1
+agasses 1
+chanoine 2
+c%c3%a9cile 2
+rose 4
+2007 3
+clubchancel 2
+info@clubchancel.com 1
+olive 2
+aoc 1
+boutique 3
+est 2
+b 2
+barthelemy 1
+domaine 5
+andrieu 3
+l%e2%80%99impression 1
+la 3
+cotes 5
+2009 1
+fils 1
+blanc 2
+boire 1
+jsp 1
+j%e2%80%99ai 1
+%c3%a0 1
+ch%c3%a2teauneuf-du-pape 1
+r%c3%a9serve 1
+robert 1
+2006 6
+voignier 1
+bouteille 1
+les 6
+il 2
+vins 3
+france 1
+http 1
+%fd%ea%f1%f2%f0%e0%ef%ee%eb%ff%f6%e8%ff 1
+reserve 1
+domaines 3
+paris 1
+pere- 2
+et 1
+vaucluse 1
+acheter 1
+grand 1
+provence 1
+saint 1
+joannis 1
+valjoanis 2
+louis 1
+de 5
+elevages 1
+un 4
+rouge 6
+exceptionnel 1
+parker 1
+cote 2
+recettes 1
+champagne 1
+au 1
+fleurs 1
+. 1
+oiseaux 1
+p%c3%a8re 2
+huile 2
+anrieu 1
+ou 1
+ch%c3%a2teau 3
+achat 2
+blanches 1
+note 1
+chancel.com 2
+//www.clubchancel.com/ 1
+sec 2
+prix 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 9 0
+206 1 10918
+406 5 2030
+404 437 469587
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 17
+/sitemap.xml 2 -
+/robots.txt 419 -
+/%5C%22http:/www.vinternet.net%5C%22 1 -
+/estadisticas/usage_201007.html 1 http://www.whoisde.de
+/%5C%22http:/www.clubchancel.com%5C%22 1 -
+/if(0)%0A%09%09%09document.location.href='cart.php4 2 -
+/statistik/usage_201007.html 1 http://www.whoisde.de
+/contact.php 1 -
+/stats/usage_201007.html 1 http://www.whoisde.de
+/if(0)%0D%0A%09%09%09document.location.href='cart.php4 1 -
+/webstats/usage_201007.html 1 http://www.whoisde.de
+/webalizer/usage_201007.html 1 http://www.whoisde.de
+/phpMyAdmin/scripts/setup.php 1 -
+/if(email%20=%20prompt('Veuillez%20saisir%20votre%20adresse%20email%20dans%20le%20champ%20ci-dessous%20et%20Cliquez%20sur%20OK.',%20''))%0D%0A%09%09%09%09%09%09%09document.location.href%20=%20'login.php4 1 -
+/statistiche/usage_201007.html 1 http://www.whoisde.de
+/usage/usage_201007.html 1 http://www.whoisde.de
+/logs/usage_201007.html 1 http://www.whoisde.de
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 252
+69.84.207.147 252 252 5100052 20100912092606
+173.224.112.96 91 91 1705156 20100905210425
+94.75.247.240 64 64 1139648 20100902221857
+173.193.219.168 60 60 1256988 20100929172407
+90.30.185.31 43 133 807116 20100907100320
+82.245.233.145 35 473 840117 20100927125329
+89.123.26.216 31 31 509992 20100902192419
+88.182.101.88 24 56 574259 20100921231719
+88.209.72.187 20 83 438583 20100917205046
+89.2.28.129 20 60 548743 20100904185808
+207.46.12.114 1 2 19711 20100917091008
+81.20.219.246 1 16 59400 20100916210553
+207.46.12.29 1 2 30139 20100911024727
+86.209.19.196 2 25 100798 20100929152522
+208.80.194.37 3 3 54147 20100924102651
+90.37.238.35 3 20 99916 20100913151551
+97.85.191.202 1 1 18049 20100909084942
+87.64.116.139 2 21 89464 20100923211825
+90.40.129.119 1 17 60535 20100901180250
+90.186.26.13 5 28 173843 20100924174927
+81.49.110.41 1 16 59400 20100917172302
+88.163.249.43 1 17 61946 20100904210741
+82.227.81.35 3 27 124326 20100918143320
+89.156.235.185 5 29 176484 20100924150426
+88.173.250.98 4 26 137321 20100915171018
+173.242.114.100 1 1 18049 20100907063233
+208.80.194.30 1 1 16205 20100905023824
+193.253.141.64 1 8 30177 20100911113136
+87.65.227.97 2 39 100798 20100911121653
+80.125.176.121 1 14 60021 20100903213806
+81.241.173.154 5 47 166192 20100923115239
+91.210.107.156 1 1 18049 20100920154224
+90.94.16.36 1 14 60021 20100923132406
+64.56.66.226 1 1 18049 20100928211248
+91.214.47.166 3 3 54147 20100927232846
+92.146.102.246 1 14 60021 20100912155538
+92.146.56.165 1 16 60091 20100918171915
+174.121.74.226 1 1 16205 20100928183610
+86.194.1.36 3 23 106899 20100929104225
+72.232.181.34 6 6 141123 20100930235150
+92.146.73.137 3 20 105610 20100908230203
+69.72.216.24 1 1 22528 20100930054802
+207.46.204.218 1 2 15702 20100902182653
+212.101.18.30 3 26 121454 20100913081541
+93.4.5.240 4 21 132261 20100914173604
+82.240.185.189 1 14 60021 20100904142751
+208.80.194.32 17 17 297613 20100930195914
+86.209.39.226 8 36 259064 20100905191456
+90.62.14.102 2 21 74945 20100903194146
+82.231.114.31 1 1 16205 20100930222258
+92.153.170.114 1 16 59400 20100923180454
+193.252.104.224 2 15 69269 20100902145911
+80.9.251.124 3 24 114363 20100919215740
+150.70.64.195 1 1 18049 20100922124158
+195.93.102.3 0 3 3452 
+93.27.237.215 11 52 284183 20100912173549
+82.240.234.28 1 23 80477 20100903213914
+90.23.236.233 3 26 117570 20100911220201
+88.141.35.176 6 44 169954 20100930205019
+86.219.177.253 2 25 100798 20100924231906
+81.149.141.123 1 16 59400 20100921073509
+69.147.114.107 1 1 18049 20100911113119
+91.121.17.82 5 5 111146 20100925124913
+109.128.41.73 2 25 100798 20100925170608
+80.200.129.239 3 35 105993 20100903182546
+113.22.126.36 8 35 224573 20100914054929
+142.139.47.85 1 17 60535 20100915204849
+79.88.112.49 1 16 59400 20100903141747
+86.71.91.30 1 16 59400 20100929121411
+130.226.205.4 1 16 59400 20100922123914
+201.73.22.67 1 1 16205 20100923202408
+92.162.109.62 13 37 319454 20100917164436
+208.80.194.27 2 2 36098 20100915065757
+86.199.1.150 4 22 109761 20100905094855
+68.168.105.56 2 2 34254 20100921223110
+89.76.56.137 11 11 224098 20100927062020
+80.13.175.106 8 106 422109 20100929120741
+90.55.220.126 10 46 236360 20100913164312
+64.105.37.226 2 2 18049 20100905062716
+82.233.59.215 1 16 59400 20100919080808
+38.100.41.66 9 10 156656 20100909134810
+69.58.178.28 10 10 194460 20100909071858
+216.189.167.64 1 18 66207 20100909162626
+92.157.206.9 3 26 117570 20100925135344
+178.77.75.162 1 1 18049 20100905202117
+82.233.36.210 1 16 59400 20100913001723
+208.80.194.53 3 3 52303 20100918083421
+84.97.224.241 7 32 206128 20100904140741
+208.80.194.34 6 6 102762 20100930154556
+82.234.165.7 1 12 53664 20100902145928
+85.68.247.228 2 18 76194 20100928173211
+141.2.164.193 9 33 259264 20100928111921
+88.176.132.104 1 16 60091 20100912091012
+87.153.43.55 2 25 100798 20100901141514
+195.93.102.1 1 5 46858 20100904185847
+193.168.15.45 3 26 117570 20100913132427
+78.234.56.8 9 34 268654 20100926114314
+90.11.225.84 4 28 147687 20100904174428
+64.235.157.234 2 2 36098 20100903020156
+87.60.146.50 1 16 59400 20100924175105
+91.179.69.145 2 21 89464 20100921184914
+88.1.106.153 3 30 118620 20100914190823
+195.93.102.8 0 1 1640 
+86.221.132.202 4 38 123008 20100920091540
+58.241.94.158 1 1 22528 20100906060737
+86.204.105.187 5 29 177629 20100930151541
+86.74.122.146 2 25 100798 20100927132358
+178.33.104.71 1 1 23822 20100924213821
+83.194.201.114 1 13 59974 20100928102720
+83.195.140.16 2 17 80430 20100925180450
+83.112.25.233 2 25 104015 20100918171402
+82.124.2.192 1 16 59400 20100910225141
+207.46.204.221 1 2 22903 20100904204549
+216.104.15.138 2 2 49832 20100929232617
+94.91.179.40 5 32 162448 20100927103007
+195.93.102.4 0 3 1716 
+90.35.86.189 1 14 60021 20100927131421
+74.125.16.65 2 25 103621 20100929211003
+208.115.138.254 2 2 36098 20100923111042
+192.54.144.229 3 26 118847 20100917145506
+86.193.161.249 1 16 59400 20100908204148
+89.187.130.166 6 6 109418 20100904225903
+86.220.247.82 4 35 114706 20100924231343
+78.235.230.126 2 25 100798 20100914210815
+82.124.239.19 1 16 59400 20100917110347
+207.46.12.75 1 2 21065 20100907055825
+95.16.100.74 1 16 59400 20100915030443
+90.44.90.135 2 25 100798 20100925215351
+90.28.222.228 7 31 220724 20100915132709
+82.229.116.237 2 25 100798 20100916205855
+208.80.194.31 1 1 18049 20100913124104
+85.17.171.225 1 1 18049 20100910192357
+170.148.215.156 1 20 66736 20100922152749
+82.124.183.95 3 41 117570 20100905111214
+84.246.217.25 3 27 124326 20100903133453
+86.69.88.75 4 27 149420 20100922202231
+207.46.199.30 1 2 26034 20100922084647
+213.174.115.178 4 27 152923 20100924171314
+84.97.59.112 1 16 60091 20100929233506
+79.95.132.156 9 53 268843 20100907181937
+86.129.92.108 3 22 102808 20100922220831
+109.210.3.57 3 27 124344 20100904144048
+195.93.102.7 0 3 3837 
+208.80.194.47 1 1 18049 20100929044020
+81.62.45.146 2 17 69694 20100912115626
+86.194.50.173 1 14 60021 20100901114308
+81.18.179.11 5 31 179080 20100917170756
+83.154.237.141 3 27 124344 20100925185349
+90.9.200.87 15 48 355517 20100924171019
+74.52.245.146 1 1 18049 20100929011653
+155.140.133.248 3 34 125908 20100910171646
+82.243.36.80 4 51 130632 20100910085612
+79.80.34.253 4 26 129693 20100928132302
+212.234.51.93 1 23 80477 20100929171015
+81.250.27.183 11 39 317945 20100910154003
+150.70.75.157 1 1 18017 20100929232852
+81.64.232.124 2 25 100798 20100910193518
+122.177.114.162 2 2 34254 20100918062721
+90.15.222.65 5 32 174311 20100927112502
+88.185.7.33 3 22 107513 20100925143610
+79.84.64.167 4 27 152923 20100912082714
+84.100.203.65 2 20 89245 20100905204756
+90.58.232.151 7 31 213703 20100911174635
+212.234.36.242 3 24 111606 20100906150451
+90.49.206.234 1 16 60091 20100911190902
+93.15.173.85 7 36 354834 20100904093117
+86.213.236.96 3 26 132034 20100907174828
+92.144.145.218 2 2 30765 20100901040242
+92.90.17.5 1 19 68642 20100917195206
+194.98.3.72 1 16 59400 20100909164755
+85.92.222.254 2 2 40577 20100922152748
+86.219.180.77 10 40 308062 20100903093759
+62.39.72.199 3 42 162744 20100909171629
+68.171.64.133 18 71 474121 20100922215031
+173.57.164.10 1 1 22528 20100927153202
+81.250.123.122 4 26 159398 20100916181222
+194.2.20.67 1 16 59400 20100929115312
+208.80.194.36 1 1 18049 20100901004812
+86.215.156.123 2 24 97926 20100907185235
+69.164.193.141 1 1 18049 20100919054646
+208.80.194.28 2 2 34254 20100907221804
+82.245.46.247 3 27 124326 20100915113653
+193.54.197.146 1 14 60021 20100922114021
+84.100.197.184 4 31 147465 20100913213728
+195.93.102.2 0 1 215 
+92.130.32.244 2 21 89464 20100921200811
+188.108.213.233 2 25 100798 20100928225330
+86.215.165.178 3 26 115548 20100906222932
+208.80.194.26 3 3 54147 20100913080846
+82.230.201.107 1 14 60021 20100901145051
+208.80.194.51 4 4 70352 20100920190027
+82.245.113.76 6 30 199082 20100907174245
+79.92.3.253 3 22 106236 20100901095958
+207.46.199.27 1 2 20948 20100927161339
+188.146.135.173 1 16 59400 20100908232257
+122.177.127.197 7 20 155166 20100906150249
+90.35.85.145 14 39 321516 20100929223222
+78.114.7.240 5 28 167499 20100925052933
+90.15.113.4 3 26 117570 20100906225553
+84.197.4.218 12 97 490791 20100928132338
+84.102.80.243 1 16 59400 20100905181240
+83.137.242.22 4 31 148993 20100906105224
+82.233.113.218 3 27 118405 20100904195349
+195.93.102.9 0 5 20989 
+80.125.165.180 1 17 61946 20100904204150
+90.16.23.82 3 26 117570 20100915204044
+82.232.95.218 10 35 259684 20100904133124
+82.65.76.121 17 43 431623 20100911152850
+83.137.242.27 3 28 124725 20100923111102
+208.80.194.35 4 4 66664 20100930054339
+79.86.0.18 2 19 83144 20100906185906
+83.141.222.87 1 23 80477 20100910064445
+77.200.193.62 1 16 59400 20100927223944
+84.97.202.200 4 29 146874 20100918104311
+95.138.88.12 1 17 61928 20100912011027
+74.57.163.76 3 20 99916 20100924132649
+85.23.18.99 8 40 242900 20100906121443
+178.33.104.70 3 3 43975 20100925103209
+178.63.9.74 1 1 18049 20100901144652
+82.65.138.209 3 23 109074 20100928093312
+195.93.102.5 0 2 1770 
+90.56.161.230 17 43 417492 20100926074640
+217.168.41.178 3 26 125109 20100915132548
+62.23.237.52 14 39 320594 20100923154215
+208.80.194.33 2 2 34254 20100923152252
+220.246.46.112 2 17 78238 20100917102043
+95.26.16.203 1 1 18049 20100901024218
+213.118.160.108 6 31 201167 20100904123315
+82.230.104.54 5 29 170108 20100925235210
+72.94.249.37 1 1 18049 20100905054949
+193.51.93.89 1 23 80477 20100922143447
+194.2.122.158 2 2 0 20100917205041
+150.70.75.155 1 1 18049 20100913164522
+82.245.221.105 1 1 20508 20100924124500
+217.37.39.47 1 23 80477 20100930130359
+88.173.62.89 3 40 112343 20100924093845
+78.29.203.84 2 24 109469 20100912214242
+95.26.61.136 0 1 3506 
+82.232.170.59 2 21 89464 20100905174920
+87.89.70.81 5 51 163334 20100914203021
+193.253.141.65 2 11 65170 20100911113612
+80.13.83.203 2 18 82465 20100907200443
+88.209.71.102 1 16 59400 20100917194554
+89.158.84.30 1 17 61928 20100911184812
+92.162.148.141 1 16 60091 20100918141926
+178.33.104.69 1 1 22528 20100924222207
+83.194.77.162 2 21 89464 20100907204139
+178.77.73.175 1 1 18049 20100902152839
+88.179.61.170 7 34 218675 20100919114340
+80.125.176.117 2 25 98030 20100903205221
+207.46.12.69 1 2 22770 20100901100232
+62.80.124.130 1 1 119049 20100926114648
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20100901 18 149 695048 14
+20100902 105 145 1936076 11
+20100903 26 219 1004908 11
+20100904 73 357 2393801 17
+20100905 118 254 2536110 13
+20100906 49 247 1413796 13
+20100907 59 256 1433301 12
+20100908 11 74 391729 8
+20100909 28 107 730622 9
+20100910 24 189 849694 8
+20100911 39 197 1181551 13
+20100912 275 420 5914566 9
+20100913 28 169 854361 10
+20100914 30 202 1008935 9
+20100915 25 187 940483 10
+20100916 9 69 353850 5
+20100917 51 266 1436853 13
+20100918 18 120 634768 10
+20100919 14 77 446585 6
+20100920 8 42 193360 5
+20100921 32 117 863046 6
+20100922 54 219 1514688 13
+20100923 29 168 870855 9
+20100924 50 291 1550471 17
+20100925 46 205 1348495 11
+20100926 27 79 806759 3
+20100927 64 623 1742118 11
+20100928 25 142 803505 10
+20100929 54 235 1558303 16
+20100930 19 103 566137 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 16
+2mn-5mn 30
+15mn-30mn 2
+30s-2mn 44
+0s-30s 217
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/product_list.php4 429 10537929 37 102
+/ 250 4440650 202 98
+/product.php4 207 3817384 24 44
+/cgdv.php4 178 4233398 13 13
+/login.php4 72 912979 2 1
+/cart.php4 60 918645 1 9
+/contact.php4 58 934125 21 23
+/recettes.php4 52 770362 0 3
+/index.php 38 679639 6 8
+//login.php4 17 219330 0 0
+/account.php4 2 39755 0 0
+//contact.php4 2 32410 0 0
+http://www.clubchancel.com/index.php 1 18049 1 1
+//index.php 3 53553 0 0
+// 2 36098 0 1
+//recettes.php4 2 29120 0 0
+//cgdv.php4 4 93826 0 1
+//account.php4 2 38749 0 0
+/checkout.php4 5 74359 0 0
+//mentions.php 2 3580 0 0
+//cart.php4 6 78087 0 0
+/confirm.php4 2 28038 0 1
+/inc/e-transaction/autoresponse.php 2 0 2 2
+/webstat/usage_201007.html 1 119049 1 1
+//product.php4 3 55860 0 0
+//product_list.php4 5 123449 0 2
+/mentions.php 3 5370 1 1
+END_SIDER

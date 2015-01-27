@@ -1,0 +1,311 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-01 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2553                
+POS_VISITOR 6362                
+POS_DAY 7175                
+POS_DOMAIN 3148                
+POS_LOGIN 3378                
+POS_ROBOT 3564                
+POS_WORMS 3727                
+POS_EMAILSENDER 3858                
+POS_EMAILRECEIVER 4001                
+POS_SESSION 7621                
+POS_SIDER 7811                
+POS_FILETYPES 4136                
+POS_OS 4311                
+POS_BROWSER 4401                
+POS_SCREENSIZE 4588                
+POS_UNKNOWNREFERER 4662                
+POS_UNKNOWNREFERERBROWSER 4920                
+POS_ORIGIN 5057                
+POS_SEREFERRALS 5192                
+POS_PAGEREFS 5347                
+POS_SEARCHWORDS 5656                
+POS_KEYWORDS 5822                
+POS_MISC 2217                
+POS_ERRORS 5895                
+POS_CLUSTER 3234                
+POS_SIDER_404 6036                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070203174259 36970 10498573 27900744452
+FirstTime 20070102180848
+LastTime 20070130160248
+LastUpdate 20070204054552 36970 36969 0 0 0
+TotalVisits 32                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 16 69630 1 1 317
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 1 1 610 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 2 2 1220 1 1 1076
+8 2 18 81667 1 1 317
+9 11 13 143423 4 4 2556
+10 9 88 165034 2 2 634
+11 10 43 241702 4 4 1710
+12 34 80 748040 4 4 3208
+13 6 6 3660 4 4 3963
+14 0 0 0 4 4 3622
+15 8 70 199392 4 4 2786
+16 14 45 246884 10 10 6953
+17 4 36 132638 0 0 0
+18 32 69 585039 11 11 9018
+19 1 1 610 0 0 0
+20 1 1 610 1 1 1076
+21 0 0 0 2 2 1076
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 136 489 2620159
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+sarah 2 2 31552 20070114181846
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 1 0 20070105212500 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 6 103664 0 0
+css 19 38566 0 0
+png 32 16880 0 0
+html 49 378261 0 0
+php4 81 1426847 0 0
+jpg 114 580239 0 0
+gif 188 75702 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 148
+winxp 295
+win2000 29
+Unknown 15
+linux 2
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+msie6.0 140
+firefox1.0.7 2
+firefox1.0.1 12
+msie5.01 25
+mozilla 1
+firefox2.0.0.1 169
+firefox2.0 1
+Unknown 2
+safari 121
+firefox1.5.0.9 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070129185917
+Firefox/1.0.1_someone@somewhere.any 20070129093125
+Mozilla/4.0_(compatible;_T-H-U-N-D-E-R-S-T-O-N-E) 20070119071535
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070129185917
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 45 45
+From1 1 1
+From2 2 2
+From3 3 3
+From4 85 438
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://saphir2.mailclub.fr:8443/astats/astats.php 1 1
+http://www.pingdom.com/monitor/clubchancel.com 1 1
+http://www.pingdom.com/monitor/www.clubchancel.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+clubchancel 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+clubchancel 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 4 4604
+401 2 3076
+302 6 0
+206 4 2440
+404 21 23425
+301 15 4767
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/robots.txt 21 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+195.200.189.234 58 275 1355847 20070130160248
+213.36.24.114 28 61 580501 20070114185346
+213.36.24.80 11 29 223870 20070115091523
+213.36.164.113 9 43 238573 20070105001008
+84.103.175.69 7 7 4270 20070109161717
+192.44.63.161 4 4 2440 20070119135549
+84.99.95.144 3 3 1830 20070129093125
+213.36.8.246 2 34 92118 20070105175930
+213.36.128.176 2 21 94858 20070118150403
+70.85.114.58 2 2 1220 20070129185917
+65.222.176.125 1 1 610 20070106133741
+208.17.184.62 1 1 610 20070115091505
+206.183.1.74 1 1 610 20070119071535
+213.36.24.180 1 1 19142 20070116104551
+63.210.115.10 1 1 610 20070116194820
+209.237.236.227 1 1 610 20070120073852
+64.233.182.136 1 1 610 20070119135711
+62.39.129.171 2 2 1220 20070116123059
+212.95.252.16 1 1 610 20070111033638
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20070102 2 2 1220 1
+20070103 36 98 836090 1
+20070104 9 28 169553 2
+20070105 4 51 162358 3
+20070106 1 1 610 1
+20070109 9 26 154262 2
+20070111 1 1 610 1
+20070114 28 61 580501 1
+20070115 12 30 224480 2
+20070116 4 4 20972 4
+20070118 3 22 95468 2
+20070119 5 5 3050 4
+20070120 1 1 610 1
+20070122 1 1 610 1
+20070123 4 47 103314 1
+20070125 1 1 610 1
+20070129 10 89 147112 3
+20070130 5 21 118729 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+2mn-5mn 1
+0s-30s 23
+15mn-30mn 1
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 30 17690 24 20
+/new/product_list.php4 29 579913 0 2
+/new/ 15 284113 6 2
+/new/login.php4 14 170308 0 0
+/new/cart.php4 12 212857 0 2
+/new/contact.php4 8 125608 0 3
+/new/index.php 6 103664 0 0
+/new/product.php4 6 104235 0 0
+/new/cgdv.php4 3 70431 0 0
+/new/account.php4 3 61952 0 1
+/astats/awstats.clubchancelcom.html 1 75108 0 1
+/new/checkout.php4 3 55423 0 0
+// 2 1220 1 1
+/new/admin/product.php4 2 31552 0 0
+/astats/ 1 130 1 0
+/new/recettes.php4 1 14568 0 0
+END_SIDER

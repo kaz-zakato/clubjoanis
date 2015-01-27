@@ -1,0 +1,344 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2006-08 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2552                
+POS_VISITOR 7270                
+POS_DAY 7925                
+POS_DOMAIN 3165                
+POS_LOGIN 3397                
+POS_ROBOT 3589                
+POS_WORMS 3751                
+POS_EMAILSENDER 3882                
+POS_EMAILRECEIVER 4025                
+POS_SESSION 8254                
+POS_SIDER 8460                
+POS_FILETYPES 4160                
+POS_OS 4391                
+POS_BROWSER 4481                
+POS_SCREENSIZE 4623                
+POS_UNKNOWNREFERER 4697                
+POS_UNKNOWNREFERERBROWSER 4784                
+POS_ORIGIN 4866                
+POS_SEREFERRALS 5005                
+POS_PAGEREFS 5149                
+POS_SEARCHWORDS 5328                
+POS_KEYWORDS 5480                
+POS_MISC 2216                
+POS_ERRORS 5539                
+POS_CLUSTER 3253                
+POS_SIDER_404 5698                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20060903081915 17121 5159019 31429586603
+FirstTime 20060805112215
+LastTime 20060828164916
+LastUpdate 20060904054639 17121 17120 0 0 0
+TotalVisits 31                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 15                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 610 1 1 1163
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 4 4 3622
+8 1 1 0 2 2 1811
+9 42 129 1611949 5 5 2625
+10 4 16 11006 3 3 1811
+11 52 224 779040 5 5 1889
+12 14 61 203612 3 3 289
+13 1 1 27768 0 0 0
+14 95 411 1833638 10 10 3744
+15 124 396 1611464 23 23 15955
+16 200 1143 3143145 31 40 36542
+17 152 513 3929415 19 19 8286
+18 74 202 1122095 14 14 18521
+19 1 1 610 0 0 0
+20 1 1 610 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 1 1 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 762 3100 14274962
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+sarah 201 746 6764004 20060828164800
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+netcraft 1 0 20060830225915 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 145 39306 0 0
+png 579 51067 0 0
+cgi 44 102978 0 0
+txt 1 403 0 0
+php 291 7179838 0 0
+html 46 346634 0 0
+php4 380 5780160 0 0
+jpg 419 643806 0 0
+js 20 72648 0 0
+gif 1175 58122 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 97
+winxp 2928
+win2003 1
+win2000 58
+linux 16
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+msie6.0 2928
+firefox1.0.7 1
+msie5.01 58
+firefox1.5.0.6 1
+curl 14
+firefox1.5.0.3 1
+safari 97
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 250 250
+From1 1 1
+From2 0 0
+From3 1 1
+From4 510 2848
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.spidervisit.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 18 20718
+401 19 29320
+302 43 289
+206 4 2440
+500 6 7302
+404 23 30998
+301 16 5191
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 17
+/new/inc/e-transaction/images/bckg_line_left.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/robots.txt 5 http://www.whois.sc/
+/new/inc/e-transaction/images/blank.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/checkout.php 1 -
+/admin/htaccessmaker.php 1 -
+/new/admin/PHPmyadmin 1 -
+/new/inc/e-transaction/annulation.php 1 -
+/new/inc/e-transaction/images/bckg_line_left_top.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/inc/e-transaction/images/bandeau.jpg 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/inc/e-transaction/inc/style.css 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/index.php 1 -
+/new/inc/e-transaction/images/bckg_line_right_top.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/inc/e-transaction/images/pointillets_v.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/inc/e-transaction/images/bckg_line_right.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/inc/e-transaction/images/pointillets.gif 1 http://www.clubchancel.com/new/inc/e-transaction/response.php
+/new/inc/e-transaction/confirm.php4 2 -
+/new/checkout 2 http://www.clubchancel.com/new/login.php4
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 15
+195.200.189.234 696 2922 13221792 20060828164916
+213.36.136.138 22 68 492557 20060811175348
+213.36.128.161 17 58 402056 20060811154633
+194.50.38.6 14 14 664 20060811161127
+213.36.0.47 3 28 125855 20060825152029
+66.178.190.231 1 1 0 20060828082500
+205.178.191.137 1 1 610 20060816193702
+217.128.147.9 1 1 27768 20060808134737
+213.36.8.61 1 1 0 20060816180118
+86.211.70.234 1 1 610 20060805112215
+82.255.29.131 1 1 610 20060814142036
+208.17.184.67 1 1 610 20060816005831
+212.95.252.16 1 1 610 20060818114837
+205.178.191.132 1 1 610 20060816203855
+63.148.99.237 1 1 610 20060821161102
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20060805 1 1 610 1
+20060808 151 374 1574609 3
+20060809 30 102 539002 4
+20060810 187 578 4891191 3
+20060811 351 1822 6188072 7
+20060814 1 1 610 1
+20060816 8 22 60488 6
+20060818 1 1 610 1
+20060821 1 1 610 1
+20060822 1 1 610 1
+20060825 3 28 125855 1
+20060828 27 169 892695 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 4
+30s-2mn 2
+15mn-30mn 2
+0s-30s 15
+2mn-5mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 49
+/new/cart.php4 78 1292453 1 3
+/new/admin/phpmyadmin/css/phpmyadmin.css.php 74 780598 0 1
+/new/product_list.php4 64 1177915 0 0
+/new/checkout.php4 54 690658 0 0
+/new/account.php4 48 936897 0 0
+/new/confirm.php4 40 467205 0 1
+/cgi-bin/modulev2.cgi 37 19674 0 0
+/new/login.php4 34 382095 1 1
+/new/admin/phpmyadmin/sql.php 30 1581542 0 0
+/new/index.php 25 399430 0 0
+/admin/phpmyadmin/db_details_structure.php 1 88712 0 0
+/ 19 8540 14 11
+/admin/phpmyadmin/queryframe.php 3 20073 0 0
+/new/product.php4 8 135690 0 2
+/new/admin/product.php4 19 280976 0 0
+/new/ 19 317204 7 3
+/new/admin/phpmyadmin/left.php 4 51626 0 0
+/new/contact.php4 2 29131 0 0
+/admin/phpmyadmin/tbl_properties_structure.php 4 462252 0 0
+/new/admin/phpmyadmin/main.php 4 82148 0 0
+/admin/phpmyadmin/ 3 7983 0 0
+/admin/phpmyadmin/left.php 3 38739 0 0
+/new/admin/phpmyadmin/queryframe.php 4 26780 0 0
+/inc/e-transaction/autoresponse.php 14 664 4 4
+/new/admin/home.php4 7 57590 0 0
+/new/admin/phpmyadmin/db_details_structure.php 1 88714 0 0
+/admin/htaccessmaker.php4 4 1168 0 0
+/new/admin/phpmyadmin/read_dump.php 1 77907 0 0
+/new/inc/e-transaction/appelTPE.txt 1 403 0 0
+/admin/phpmyadmin/main.php 3 61599 0 0
+/new/cgdv.php4 2 65791 0 0
+/admin/phpmyadmin/export.php 1 60630 0 1
+/new/inc/e-transaction/appelTPE.inc.php 21 17647 0 0
+/new/cgi-local/modulev2.cgi 6 55536 2 1
+/new/inc/e-transaction/response.php 23 15465 1 1
+/new/cgi-bin/modulev2.cgi 1 27768 0 0
+/admin/htaccessmaker.php 2 580 0 0
+/new/admin/phpmyadmin/ 4 10644 0 0
+/new/inc/e-transaction/autoresponse.php 15 1222 0 0
+/admin/phpmyadmin/sql.php 1 171328 0 0
+/admin/phpmyadmin/css/phpmyadmin.css.php 20 174536 0 0
+/new/admin/phpmyadmin/db_details.php 1 13774 0 0
+/admin/product.php4 8 114818 1 1
+/new/admin/recettes.php4 5 45462 0 0
+/new/admin/phpmyadmin/tbl_properties_structure.php 25 2779797 0 0
+/new/recettes.php4 7 102311 0 0
+/new/annulation.php 9 112917 0 1
+/admin/phpmyadmin/db_details_export.php 2 71158 0 0
+/new/formulaire_paiement.html 1 2263 0 0
+END_SIDER

@@ -1,0 +1,320 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2006-07 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2552                
+POS_VISITOR 6187                
+POS_DAY 6988                
+POS_DOMAIN 3198                
+POS_LOGIN 3432                
+POS_ROBOT 3626                
+POS_WORMS 3788                
+POS_EMAILSENDER 3919                
+POS_EMAILRECEIVER 4062                
+POS_SESSION 7483                
+POS_SIDER 7689                
+POS_FILETYPES 4197                
+POS_OS 4400                
+POS_BROWSER 4489                
+POS_SCREENSIZE 4673                
+POS_UNKNOWNREFERER 4747                
+POS_UNKNOWNREFERERBROWSER 4924                
+POS_ORIGIN 5031                
+POS_SEREFERRALS 5172                
+POS_PAGEREFS 5316                
+POS_SEARCHWORDS 5464                
+POS_KEYWORDS 5616                
+POS_MISC 2216                
+POS_ERRORS 5675                
+POS_CLUSTER 3288                
+POS_SIDER_404 5828                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20060805112215 13869 4150228 28421898597
+FirstTime 20060701124208
+LastTime 20060726181552
+LastUpdate 20060806054618 13869 13868 0 0 0
+TotalVisits 35                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 4 4 2710
+6 0 0 0 4 4 3622
+7 0 0 0 0 0 0
+8 2 2 1220 2 2 1811
+9 72 552 1135207 38 43 28914
+10 90 714 1132344 50 56 39243
+11 196 2152 3341522 70 70 74016
+12 106 1039 2147083 20 20 17692
+13 26 44 398739 0 0 0
+14 88 924 1185933 19 33 19144
+15 185 1772 2884761 25 49 26801
+16 93 1080 1952182 23 24 23134
+17 257 2163 4484371 70 77 71044
+18 212 1726 4147210 59 60 49292
+19 0 0 0 0 0 0
+20 2 2 610 0 0 0
+21 0 0 0 0 0 0
+22 1 1 610 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1330 12171 22811792
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+sarah 642 1858 12084898 20060717094331
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+jeeves 1 610 20060714113925 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 813 62298 0 0
+png 1158 25493 0 0
+php 217 6569293 0 0
+html 143 674782 0 0
+js 58 93686 0 0
+php4 970 13806680 0 0
+jpg 1828 1482260 0 0
+gif 6984 97300 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 80
+winxp 12079
+win2000 3
+Unknown 4
+linux 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 10
+msie6.0 12010
+firefox1.0.7 1
+msie5.01 2
+mozilla 1
+firefox1.0 1
+firefox1.5.0.3 9
+firefox1.5.0.4 61
+Unknown 3
+firefox1.0.8 3
+safari 80
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+PHP/4.2.0 20060703160405
+Mozilla/4.0_(compatible;_T-H-U-N-D-E-R-S-T-O-N-E) 20060705171417
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+PHP/4.2.0 20060703160405
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 136 137
+From1 1 1
+From2 0 0
+From3 0 0
+From4 1193 12033
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+401 12 18488
+403 253 291253
+302 135 20519
+206 5 3050
+301 21 6776
+404 15 16727
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/index.php 9 -
+/robots.txt 6 http://www.whois.sc/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+195.200.189.234 1247 12011 21657806 20060726181552
+213.36.28.121 26 44 398739 20060711133322
+213.36.24.186 17 42 342580 20060712124825
+213.36.24.55 14 34 307758 20060707114503
+83.157.27.216 4 18 95149 20060708124118
+82.255.3.148 4 4 610 20060701124236
+82.232.114.63 3 3 1220 20060705093622
+82.254.40.146 2 2 610 20060702200812
+192.44.63.161 2 2 1220 20060717095805
+213.36.28.91 2 2 610 20060703153827
+209.85.32.23 1 1 610 20060714222038
+63.100.163.91 1 1 610 20060716082203
+206.183.1.74 1 1 610 20060705171417
+82.248.91.77 1 1 610 20060716150618
+213.36.8.17 1 1 610 20060705103843
+208.17.184.59 1 1 610 20060720152047
+213.36.22.2 1 1 610 20060704150304
+82.251.97.187 1 1 610 20060709165752
+82.249.108.112 1 1 610 20060714114901
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20060701 4 4 610 1
+20060702 2 2 610 1
+20060703 56 373 445841 2
+20060704 3 3 1220 2
+20060705 70 404 592586 5
+20060706 62 469 909267 2
+20060707 14 34 307758 1
+20060708 4 18 95149 1
+20060709 1 1 610 1
+20060710 139 653 2716273 1
+20060711 526 5241 9532120 4
+20060712 317 3958 5830091 3
+20060713 59 745 1028982 2
+20060714 2 2 1220 2
+20060716 2 2 1220 2
+20060717 11 134 161799 2
+20060720 1 1 610 1
+20060721 2 30 79609 1
+20060726 55 97 1106217 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 8
+5mn-15mn 1
+2mn-5mn 4
+0s-30s 16
+15mn-30mn 3
+30s-2mn 2
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/new/admin/product.php4 376 5346636 3 0
+/new/product_list.php4 237 3654395 0 3
+/ 93 12810 18 19
+/new/product.php4 91 1391047 0 5
+/new/admin/phpmyadmin/css/phpmyadmin.css.php 88 876671 0 1
+/new/admin/recettes.php4 69 563501 0 0
+/new/recettes.php4 49 668424 0 0
+/new/index.php 45 657112 1 2
+/new/cart.php4 44 712104 0 0
+/new/ 43 643345 13 4
+/new/cgdv.php4 9 278263 0 0
+/new/admin/phpmyadmin/sql.php 28 1475799 0 0
+/new/account.php4 22 440039 0 1
+/new/login.php4 34 345108 0 0
+/new/admin/phpmyadmin/left.php 8 101652 0 0
+/new/contact.php4 7 87307 0 0
+/new/test_php.php 3 47306 0 0
+/new/admin/phpmyadmin/ 7 18627 0 0
+/new/checkout.php4 11 147776 0 0
+/new/admin/phpmyadmin/main.php 7 143759 0 0
+/new/admin/phpmyadmin/queryframe.php 7 46865 0 0
+/new/admin/phpmyadmin/db_details.php 1 13774 0 0
+/new/admin/home.php4 21 172080 0 0
+/new/admin/phpmyadmin/db_details_structure.php 2 166161 0 0
+/new/admin/phpmyadmin/read_dump.php 3 303921 0 0
+/new/admin/phpmyadmin/tbl_properties_structure.php 20 2420967 0 0
+/new/admin/phpmyadmin/tbl_change.php 5 315306 0 0
+END_SIDER

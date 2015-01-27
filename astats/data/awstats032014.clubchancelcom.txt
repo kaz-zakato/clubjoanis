@@ -1,0 +1,1215 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2014-03 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2542                
+POS_VISITOR 25663               
+POS_DAY 44391               
+POS_DOMAIN 3407                
+POS_LOGIN 3640                
+POS_ROBOT 3795                
+POS_WORMS 4373                
+POS_EMAILSENDER 4504                
+POS_EMAILRECEIVER 4647                
+POS_SESSION 45272               
+POS_SIDER 45483               
+POS_FILETYPES 4782                
+POS_OS 4952                
+POS_BROWSER 5106                
+POS_SCREENSIZE 5624                
+POS_UNKNOWNREFERER 5698                
+POS_UNKNOWNREFERERBROWSER 7299                
+POS_ORIGIN 7732                
+POS_SEREFERRALS 7879                
+POS_PAGEREFS 8057                
+POS_SEARCHWORDS 9324                
+POS_KEYWORDS 9548                
+POS_MISC 2205                
+POS_ERRORS 9678                
+POS_CLUSTER 3496                
+POS_SIDER_404 9800                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140401001026 19537 4423180 30625201860
+FirstTime 0
+LastTime 20140331215702
+LastUpdate 20140401054501 19537 19397 139 0 0
+TotalVisits 693                 
+TotalUnique 455                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 484                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 26 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 71 109 1205992 40 40 317858
+1 45 47 731129 51 52 393088
+2 31 55 577942 35 37 258382
+3 24 37 427655 24 27 195153
+4 24 25 363908 67 69 686387
+5 117 132 1973308 53 56 446655
+6 595 612 10806267 47 47 459838
+7 478 510 8719435 64 66 486899
+8 71 158 1288825 48 48 431140
+9 30 117 684975 37 37 218847
+10 78 242 1645377 43 46 452371
+11 161 386 3128472 54 56 311543
+12 115 295 2307881 67 74 597507
+13 49 138 1046390 41 49 583384
+14 64 277 1567090 47 51 421332
+15 66 206 1390079 48 51 337591
+16 125 367 3914982 48 50 443081
+17 99 393 2303702 259 365 833499
+18 110 345 2440772 27 27 216528
+19 147 346 2932684 54 59 363910
+20 63 182 1362946 27 28 187304
+21 101 346 2198265 41 47 265723
+22 70 234 1442054 46 50 377450
+23 193 244 3257148 56 58 428309
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2927 5803 57717278
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+googlebot 137 2187496 20140331053119 0
+robot 125 2026985 20140331093239 0
+yandex 97 1179861 20140331051705 0
+baiduspider 74 1190878 20140331190526 0
+spider 40 675997 20140331232354 0
+slurp 34 567577 20140329012343 0
+crawl 33 532670 20140329162840 0
+voila 8 136274 20140327015822 0
+msnbot 5 66023 20140330173350 0
+python 2 25768 20140311220641 0
+surveybot 2 32090 20140320112439 0
+psbot 2 47048 20140331062209 0
+netcraft 1 16045 20140310232201 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 63 976289 0 0
+css 191 634586 0 0
+html 479 7405579 0 0
+jpg 839 6603773 0 0
+php4 2385 41076232 0 0
+gif 1846 1020819 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 264
+winxp 631
+win2000 2
+winnt 1601
+linux 297
+macosx 1077
+win16 1
+winme 3
+win95 2
+win2003 1002
+Unknown 923
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 36
+firefox28.0 64
+msie6.0 29
+firefox3.0.7 2
+firefox4.0.1 10
+firefox26.0 23
+firefox18.0 5
+firefox8.0 31
+firefox4.0 3
+lynx 2
+curl 2
+msie8.0 239
+firefox0.10.1 5
+firefox6.0.2 4
+firefox13.0.1 1
+msie7.0 145
+msie2.0 1
+msie5.0 1
+wget 12
+msie9.0 193
+firefox27.0 656
+Unknown 122
+firefox11.0 1
+firefox17.0 18
+opera 39
+msie5.5 1
+firefox12.0 1
+mozilla 1260
+firefox25.0 45
+firefox1.0 1
+firefox14.0.1 9
+msie10.0 31
+firefox6.0 4
+netscape6.1 1
+firebird 1000
+safari 1822
+firefox16.0.1 20
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 21
+Mozilla/5.0_(compatible;_heritrix/3.1.1__http://www.run4dom.com) 20140328111829
+Mozilla/5.0_(compatible;_MSIE_10.0;_Windows_Phone_8.0;_Trident/6.0;_IEMobile/10.0;_ARM;_Touch;_NOKIA;_909) 20140302122713
+Mozilla/5.0_(compatible;_meanpathbot/1.0;__http://www.meanpath.com/meanpathbot.html) 20140327115633
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20140321143959
+testingforex.com 20140318033115
+- 20140325212717
+Mozilla/5.0_(compatible;_URLAppendBot/1.0;__http://www.profound.net/urlappendbot.html) 20140317193751
+Mozilla/5.0_(compatible;_bingbot/2.0;__http://www.bing.com/bingbot.htm) 20140331150410
+Mozilla/5.0_(compatible;_spbot/4.0.7;__http://OpenLinkProfiler.org/bot_) 20140304055812
+niki-bot 20140307021232
+Mozilla/4.0_(compatible;_Synapse) 20140321224010
+Mozilla/4.0_(compatible;_Blog_Search;) 20140328213007
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20140325104345
+Apache-HttpClient/4.3_(java_1.5) 20140323070007
+Mozilla/5.0_(compatible) 20140302163501
+Mozilla/5.0_(compatible;_spbot/4.0.9;__http://OpenLinkProfiler.org/bot_) 20140327232148
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140331161946
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140317073958
+nutch-1.4/Nutch-1.4 20140325190732
+Mozilla/5.0_(compatible;_SearchmetricsBot;_http://www.searchmetrics.com/en/searchmetrics-bot/) 20140309194854
+Mozilla/5.0_(compatible;_MJ12bot/v1.4.4;_http://www.majestic12.co.uk/bot.php?_) 20140331145517
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+- 20140325212717
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~getfavicon27) 20140321143959
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20140317073958
+niki-bot 20140307021232
+Apache-HttpClient/4.3_(java_1.5) 20140323070007
+nutch-1.4/Nutch-1.4 20140325190732
+testingforex.com 20140318033115
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1970 2142
+From1 0 0
+From2 57 59
+From3 185 185
+From4 715 3417
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 48 50
+baidu 4 4
+yandex 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 26
+http://www.val-joanis.com/fr/reserve_griottes.html 46 46
+http://www.val-joanis.com/fr/chateau_rouge.html 42 42
+http://www.val-joanis.com/fr/chateau_rose.html 12 12
+http://www.val-joanis.com/fr/reserve_aubepines.html 10 10
+http://www.val-joanis.com/fr/reserve_merises.html 6 6
+http://www.val-joanis.com/fr/chateau_blanc.html 6 6
+http://domainsigma.com/whois/clubchancel.com 6 6
+http://www.val-joanis.com/eng/chateau_rouge.html 6 6
+http://hotdl.in 5 5
+http://2ads.co.uk 4 4
+http://www.val-joanis.com/eng/chateau_rose.html 2 2
+http://thefds.net 4 4
+http://www.val-joanis.com/eng/reserve_griottes.html 4 4
+http://www.val-joanis.com/eng/chateau_blanc.html 1 1
+http://filesvine.com 4 4
+http://w12files.com 4 4
+http://darkhalfe.ru/catalog/mart/22.html 2 2
+http://r12files.com 4 4
+http://testingforex.com 1 1
+http://privhosting.com 1 1
+http://www.val-joanis.com/eng/reserve_merises.html 4 4
+http://mobplayer.ru 2 2
+http://mobile.wine-searcher.com/find/val+joanis+tradition+rose+provence+cote+du+luberon+rhone+france 1 1
+http://ddlmega.net 4 4
+http://val-joanis.com/fr/reserve_agasses.html 3 3
+http://www.agentur-hoedl.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+val+joanis+cotes+du+luberon 2
+clubchancel.com 2
+syrah+2005+val+joanis 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+val 3
+joanis 3
+du 2
+clubchancel.com 2
+cotes 2
+luberon 2
+2005 1
+syrah 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 28 36533
+501 5 5009
+302 7 0
+404 890 987525
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 325
+/\xe5\xae\x89\xe8\xa3\x85\xe8\xaf\xb4\xe6\x98\x8e.txt 1 http://www.baidu.com
+/admin.php 10 -
+/SlurpConfirm404/scheme-to-c/viewerschoiceawards.htm 1 -
+/fckeditor/fckeditor.js 1 http://www.baidu.com
+/supernews.css 1 http://www.baidu.com
+/install/db_init.sql 1 http://www.baidu.com
+/gbook/_notes/dwsync.xml 1 http://www.baidu.com
+/common/common.js 1 http://www.baidu.com
+/extmail/README 1 http://www.baidu.com
+/images/edit/edit.js 1 http://www.baidu.com
+/footer.php 1 http://www.baidu.com
+/plugins/googlemap/view/admin_googlemap.htm 1 http://www.baidu.com
+/theme/default/style.css 1 http://www.baidu.com
+/install/sql/db_settings_lite.sql 1 http://www.baidu.com
+/public/themes/newstyle/layout.css 1 http://www.baidu.com
+/Resource/Cache/City.xml 1 http://www.baidu.com
+/keke_client/ucenter/log.txt 1 http://www.baidu.com
+/wp-content/themes/twentyten/style.css 1 http://www.baidu.com
+/plugins/autolinks_plugin/definitions.default.txt 1 http://www.baidu.com
+/agent/templates/Smarty/utf-8/footer.html 1 http://www.baidu.com
+/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/administrator/manifests/files/joomla.xml 1 http://www.baidu.com
+/pic/head_01.gif 1 http://www.baidu.com
+/images/btles/agasses.jpg 1 -
+/ThinkPHP/README.txt 1 http://www.baidu.com
+/update.txt 1 http://www.baidu.com
+/wcm/app/js/source/wcmlib/WCMConstants.js 1 http://www.baidu.com
+/templet/default/guestbook.jsp 1 http://www.baidu.com
+/administrator/ 10 -
+/install/templates/default/footer.php 1 http://www.baidu.com
+/\xe6\xb3\xa8\xe6\x84\x8f\xe4\xba\x8b\xe9\xa1\xb9-\xe5\xbf\x85\xe7\x9c\x8b.txt 1 http://www.baidu.com
+/editor/Include/Editor.js 1 http://www.baidu.com
+/docs.css 1 http://www.baidu.com
+/userapi_readme.txt 1 http://www.baidu.com
+/wp-login.php 12 -
+/hotspots.xml 1 http://www.baidu.com
+/phpmyadmin/Documentation.txt 1 http://www.baidu.com
+/web2/css/css0/webmail.css 1 http://www.baidu.com
+/readme.txt 1 http://www.baidu.com
+/pub/guiedit/guiedit.js 1 http://www.baidu.com
+/extensions/jcms/info.xml 1 http://www.baidu.com
+/data 1 http://www.baidu.com
+/readme 1 http://www.baidu.com
+/install/sql.txt 1 http://www.baidu.com
+/themes/mall/default/footer.html 1 http://www.baidu.com
+/index.html 1 http://www.baidu.com
+/cgdv.php 1 -
+/license.txt 1 http://www.baidu.com
+/data/licence.txt 1 http://www.baidu.com
+/cuteeditor_files/Scripts/spell.js 1 http://www.baidu.com
+/themes/lazycms/home.html 1 http://www.baidu.com
+/plus/public/setting.xml 1 http://www.baidu.com
+/templates/default/cn/public/fotter.html 1 http://www.baidu.com
+/plugin/kindeditor/license.txt 1 http://www.baidu.com
+/includes/js/common.js 1 http://www.baidu.com
+/history.txt 1 http://www.baidu.com
+/SlurpConfirm404/sub_pages.htm 1 -
+/virtuemart.xml 1 http://www.baidu.com
+/lang/install_wind.sql 1 http://www.baidu.com
+/install/oecms_v3.0.sql 1 http://www.baidu.com
+/Admin/Include/version.xml 1 http://www.baidu.com
+/media/blogs/index.html 1 http://www.baidu.com
+/wlwmanifest.xml 1 http://www.baidu.com
+/public/style_css/ipb_rtl.css 1 http://www.baidu.com
+/system/language/zh-cn.xml 1 http://www.baidu.com
+/HX_login.asp 1 http://www.baidu.com
+/includes/general.js 1 http://www.baidu.com
+/include/bottom.asp 1 http://www.baidu.com
+/js/index.htm 1 http://www.baidu.com
+/data/js/config.js 1 http://www.baidu.com
+/system/skins/default/system.login.htm 1 http://www.baidu.com
+/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/edoas2/edoas2_test.jsp 1 http://www.baidu.com
+/robots.txt 524 -
+/do/reg.php 1 http://www.baidu.com
+/archive/archive.css 1 http://www.baidu.com
+/templates/default/tools_main.html 1 http://www.baidu.com
+/xrycvpre.html 1 -
+/dede/login.php 1 http://www.baidu.com
+/inc/style2.css 1 http://www.baidu.com
+/javascript:document.form.submit() 1 -
+/news.txt 1 http://www.baidu.com
+/modules/article/toplist.php 1 http://www.baidu.com
+/version.txt 1 http://www.baidu.com
+/wp-admin/ 1 -
+/external/modules/datacall/templates/admin/header.html 1 http://www.baidu.com
+/install/phpdisk.sql 1 http://www.baidu.com
+/templates/default/footer.php 1 http://www.baidu.com
+/Documentation.txt 1 http://www.baidu.com
+/themes/default/style.css 2 http://www.baidu.com
+/99billdo.php 1 http://www.baidu.com
+/message.html 1 http://www.baidu.com
+/install/resources/mybb_theme.xml 1 http://www.baidu.com
+/api/Request.xml 1 http://www.baidu.com
+/SlurpConfirm404/coldcut/r89c01ss.htm 1 -
+/lib/fckeditor/fckconfig.js 1 http://www.baidu.com
+/components/com_breezingforms/facileforms.js 1 -
+/license_top.txt 1 http://www.baidu.com
+/ttdrolvokg.html 1 -
+/plus/comment/setting.xml 1 http://www.baidu.com
+/docs/changelog.txt 1 http://www.baidu.com
+/skins/default.css 1 http://www.baidu.com
+/templates/main/default/space_reviews.htm 1 http://www.baidu.com
+/app/code/core/Mage/Admin/etc/config.xml 1 http://www.baidu.com
+/templet/default/ 1 http://www.baidu.com
+/template/home.htm 1 http://www.baidu.com
+/themes/purple/info.xml 1 http://www.baidu.com
+/data/sql/survey.sql 1 http://www.baidu.com
+/kindeditor/kindeditor.js 1 http://www.baidu.com
+/js/admin-dnd.js 1 http://www.baidu.com
+/core/version.txt 1 http://www.baidu.com
+/images/default/publict.css 1 http://www.baidu.com
+/control/admin/tpl/admin_config_integration_pw.htm 1 http://www.baidu.com
+/Inc/SysProduct.asp 1 http://www.baidu.com
+/eWebEditor/Include/Editor.js 1 http://www.baidu.com
+/template/\xe8\xaf\xb7\xe5\x8b\xbf\xe5\x88\xa0\xe9\x99\xa46kbbs\xe6\xa8\xa1\xe6\x9d\xbf.txt 1 http://www.baidu.com
+/wp-content/plugins/all-video-gallery/allvideogallery.css 1 http://www.baidu.com
+/Southidceditor/Dialog/about.htm 1 http://www.baidu.com
+/install/upgrade.sql 1 http://www.baidu.com
+/core/modules/article/assistant/templates/article_list.htm 1 http://www.baidu.com
+/templates/default/header.php 1 http://www.baidu.com
+/Southidceditor/js/buttons.js 1 http://www.baidu.com
+/pla/lib/ldap_error_codes.txt 1 http://www.baidu.com
+/wcm/app/login.jsp 1 http://www.baidu.com
+/cgi-bin/login.cgi 1 http://www.baidu.com
+/template/default/styles.css 1 http://www.baidu.com
+/apple-touch-icon.png 5 -
+/App_Themes/AdminDefaultTheme/xtree.css 1 http://www.baidu.com
+/plugin/kindeditor/kindeditor.js 1 http://www.baidu.com
+/statics/js/ckeditor/plugins/capture/plugin.js 1 http://www.baidu.com
+/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/a_d/install/data.sql 1 http://www.baidu.com
+/phpmyadmin/README 1 http://www.baidu.com
+/docs/samples.txt 1 http://www.baidu.com
+/ckeditor/ckeditor.js 1 http://www.baidu.com
+/login.php 3 -
+/kindeditor/license.txt 1 http://www.baidu.com
+/www/admin/templates/install/register-step.html 1 http://www.baidu.com
+/templates/default/images/style_css_1.css 1 http://www.baidu.com
+/application/Plugin/Example/View/admin/index.tpl 1 http://www.baidu.com
+/mails/en/bankwire.txt 1 http://www.baidu.com
+/robots 1 http://www.baidu.com
+/SlurpConfirm404/crssbnme.htm 1 -
+/digg.php 1 http://www.baidu.com
+/minica_down.php 1 http://www.baidu.com
+/public/home/js/main.js 1 http://www.baidu.com
+/templates/default/en/public/footer.html 1 http://www.baidu.com
+/install/en.sql 1 http://www.baidu.com
+/apple-touch-icon-precomposed.png 5 -
+/themes/purple/theme.xml 1 http://www.baidu.com
+/templates/rounded/template1.html 1 http://www.baidu.com
+/ask 1 http://www.baidu.com
+/wcm/loginpage.jsp 1 http://www.baidu.com
+/ChangeLog 1 http://www.baidu.com
+/static/js/common.js 1 http://www.baidu.com
+/master/login.aspx 1 http://www.baidu.com
+/templates/default/dnt.css 1 http://www.baidu.com
+/data/install.sql 1 http://www.baidu.com
+/ThinkPHP/Extend/README.txt 1 http://www.baidu.com
+/file/script/config.js 1 http://www.baidu.com
+/%22http://www.vinternet.net/%22 2 http://www.clubchancel.com/mentions.php
+/README 1 http://www.baidu.com
+/fckeditor/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/wp-content/plugins/tell-a-friend/tell-a-friend.php 1 http://clubchancel.com/wp-content/plugins/tell-a-friend/tell-a-friend.php
+/plus/webftp/setting.xml 1 http://www.baidu.com
+/plugins/tinymce_plugin/tiny_mce/plugins/more/editor_plugin.js 1 http://www.baidu.com
+/css/eyou.css 1 http://www.baidu.com
+/member/space/commpany/info.txt 1 http://www.baidu.com
+/jsp/cis4/js/common/CTRSHTMLElement.js 1 http://www.baidu.com
+/siteserver/login.aspx 1 http://www.baidu.com
+/Help/default.htm 1 http://www.baidu.com
+/_data/jcmsU1.js 1 http://www.baidu.com
+/api/Response.xml 1 http://www.baidu.com
+/plugin/backupdb/plugin.xml 1 http://www.baidu.com
+/templates/classik/css/classik.css 1 http://www.baidu.com
+/FCK/fckeditor.js 1 http://www.baidu.com
+/DevInfo.txt 1 http://www.baidu.com
+/install/data/sql/db_full.sql 1 http://www.baidu.com
+/readme_gbk.txt 1 http://www.baidu.com
+/mailto:info@clubchancel.com 1 -
+/data/config.js 1 http://www.baidu.com
+/templates/default/info.txt 1 http://www.baidu.com
+/js/api.js 1 http://www.baidu.com
+/editor/Scripts/spell.js 1 http://www.baidu.com
+/cuteeditor_files/Help/default.htm 1 http://www.baidu.com
+/README-VIRTUEMART.txt 1 http://www.baidu.com
+/FS_Inc/FS_CSS.css 1 http://www.baidu.com
+/member/template/homepage.htm 1 http://www.baidu.com
+/custom/README 1 http://www.baidu.com
+/plugins/tinymce_plugin/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css 1 http://www.baidu.com
+/Include/Editor.js 1 http://www.baidu.com
+/images/admin/admin.css 1 http://www.baidu.com
+/phpldapadmin/lib/ldap_error_codes.txt 1 http://www.baidu.com
+/install/frcms_db.sql 1 http://www.baidu.com
+/docs/index.html 1 http://www.baidu.com
+/install/templates/step-1.html 1 http://www.baidu.com
+/openconf.js 1 http://www.baidu.com
+/SlurpConfirm404/fairbnks/wso_stats/cefipa_021.stats.htm 1 -
+/dede/js/album.js 1 http://www.baidu.com
+/CSS/atom.css 1 http://www.baidu.com
+/css.css 1 http://www.baidu.com
+/wp-content/plugins/wp-property/readme.txt 1 http://www.baidu.com
+/wp-content/plugins/wp-property/js/wp-property-backend-global.js 1 http://www.baidu.com
+/common.js 1 http://www.baidu.com
+/data/admin/ver.txt 1 http://www.baidu.com
+/ThinkPHP/LICENSE.txt 1 http://www.baidu.com
+/pub/skins/pmwiki/pmwiki.css 1 http://www.baidu.com
+/README.txt 1 http://www.baidu.com
+/help.html 1 http://www.baidu.com
+/language/gb2312.xml 1 http://www.baidu.com
+/self_adherent.php 1 http://www.baidu.com
+/editor/Help/default.htm 1 http://www.baidu.com
+/\xe8\xaf\xb4\xe6\x98\x8e\xe6\x96\x87\xe4\xbb\xb6.txt 1 http://www.baidu.com
+/templates/default/en/public/fotter.html 1 http://www.baidu.com
+/\xe7\xa8\x8b\xe5\xba\x8f\xe8\xaf\xb4\xe6\x98\x8e.txt 1 http://www.baidu.com
+/e/master/login.aspx 1 http://www.baidu.com
+/install/zcncms_default.sql 1 http://www.baidu.com
+/lib/ldap_error_codes.txt 1 http://www.baidu.com
+/cms4jadmin/skin/blue/css/icon.css 1 http://www.baidu.com
+/plus/repair/setting.xml 1 http://www.baidu.com
+/js/changejobtype.js 1 http://www.baidu.com
+/%22http://www.clubchancel.com/%22 2 http://www.clubchancel.com/mentions.php
+/docs/readme_en.txt 1 http://www.baidu.com
+/FCK/editor/js/fckeditorcode_ie.js 1 http://www.baidu.com
+/lionsky_client/WebHtmlEditor/1_7_2006_1020/Theme/Office_Tinge/WebHtmlEditor.css 1 http://www.baidu.com
+/install.php 1 http://www.baidu.com
+/administrator/index.php 1 -
+/view/default/wap/image.tpl 1 http://www.baidu.com
+/wordpress/wp-admin/ 1 -
+/fckeditor.js 1 http://www.baidu.com
+/docs/DOCUMENTATION.txt 1 http://www.baidu.com
+/mthemes/default/images/style.css 1 http://www.baidu.com
+/plus/digg/setting.xml 1 http://www.baidu.com
+/URLRewrite/Nginx.txt 1 http://www.baidu.com
+/edoas2_test.jsp 1 http://www.baidu.com
+/SlurpConfirm404/insensitive/pix.htm 1 -
+/phpmyadmin/docs.css 1 http://www.baidu.com
+/ueditor/editor_all.js 1 http://www.baidu.com
+/install/templates/header.htm 1 http://www.baidu.com
+/template/default/refreshto.htm 1 http://www.baidu.com
+/templates/default/cn/public/footer.html 1 http://www.baidu.com
+/templates/admin/help.html 1 http://www.baidu.com
+/e/install/index.aspx 1 http://www.baidu.com
+/html/head.asp 1 http://www.baidu.com
+/data/xml/supply.xml 1 http://www.baidu.com
+/Providers/HtmlEditorProviders/Fck/fcklinkgallery.aspx 1 http://www.baidu.com
+/editor/Dialog/about.htm 1 http://www.baidu.com
+/phpldapadmin 1 http://www.baidu.com
+/5107/chat/js/chat.js 1 http://www.baidu.com
+/templates/default/header.htm 1 http://www.baidu.com
+/licence.txt 1 http://www.baidu.com
+/plugin/kindeditor/kindeditor-min.js 1 http://www.baidu.com
+/edoas2/install/install.jsp 1 http://www.baidu.com
+/xweibo_upload/css/default/base.css 1 http://www.baidu.com
+/SlurpConfirm404/emsgr_f.htm 1 -
+/max-templates/classic/styles/app.css 1 http://www.baidu.com
+/install/templates/default/errorinfo.php 1 http://www.baidu.com
+/changelog.txt 1 http://www.baidu.com
+/inc/playerKinds.xml 1 http://www.baidu.com
+/eWebEditor/Dialog/about.htm 1 http://www.baidu.com
+/static/alpa.css 1 http://www.baidu.com
+/browserconfig.xml 1 -
+/SlurpConfirm404/adrenalin/info-kanri/kazuo.htm 1 -
+/modules/forum/index.php 1 http://www.baidu.com
+/templates/default/auction_detail.html 1 http://www.baidu.com
+/Scripts/spell.js 1 http://www.baidu.com
+/api/api_user.xml 1 http://www.baidu.com
+/ueditor/editor_config.js 1 http://www.baidu.com
+/uuqciduar.html 1 -
+/SCRIPT/common.js 1 http://www.baidu.com
+/css/style.css 1 http://www.baidu.com
+/apple-touch-icon-120x120.png 1 -
+/SlurpConfirm404.htm 1 -
+/index.php/i 1 http://www.baidu.com
+/leiame.html 1 http://www.baidu.com
+/skin/frontend/default/spy/css/styles.css 1 http://www.baidu.com
+/install.txt 1 http://www.baidu.com
+/blog/wp-admin/ 1 -
+/blog/wp-login.php 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/Dialog/about.htm 1 http://www.baidu.com
+/URLRewrite/httpd.ini 1 http://www.baidu.com
+/comm_front/email/uploadImageFile_do.jsp 1 http://www.baidu.com
+/install/data.sql 1 http://www.baidu.com
+/install/install.jsp 1 http://www.baidu.com
+/usr/themes/default/sytle.css 1 http://www.baidu.com
+/cgi-bin/web2cgi/getpass.cgi 1 http://www.baidu.com
+/templates/default/galette.css 1 http://www.baidu.com
+/isfjulaxdddqkabg.html 1 -
+/yivhjwffjeyubhje.html 1 -
+/widget/oauth_login/info.txt 1 http://www.baidu.com
+/pla 1 http://www.baidu.com
+/install/css/install.css 1 http://www.baidu.com
+/plus/webrpc/setting.xml 1 http://www.baidu.com
+/phpmyadmin/ChangeLog 1 http://www.baidu.com
+/catalog/view/theme/default/stylesheet/carousel.css 1 http://www.baidu.com
+/SlurpConfirm404/about_ncfs/career.serv/Exhibiting.htm 1 -
+/docs/README 1 http://www.baidu.com
+/langs/nl/lang.txt 1 http://www.baidu.com
+/clientscript/vbulletin_ajax_htmlloader.js 1 http://www.baidu.com
+/data/cachefiles/config.js 1 http://www.baidu.com
+/templates/default/css/common.css 1 http://www.baidu.com
+/manage/login.aspx 1 http://www.baidu.com
+/CHANGELOG.txt 1 http://www.baidu.com
+/announcement/index.html 1 http://www.baidu.com
+/install/zcncms.sql 1 http://www.baidu.com
+/License.txt 1 http://www.baidu.com
+/templates/cn/html/about.html 1 http://www.baidu.com
+/js/PublicJS.js 1 http://www.baidu.com
+/cms4jadmin/login.jsp 1 http://www.baidu.com
+/wcm/WCMV6/login.jsp 1 http://www.baidu.com
+/install/t_thinksns_com.sql 1 http://www.baidu.com
+/RELEASE_NOTES.txt 1 http://www.baidu.com
+/wp-content/plugins/wp-property/js/wp-property-global.js 1 http://www.baidu.com
+/system/templates/default12/images/js.js 1 http://www.baidu.com
+/\xe6\x98\x93\xe8\xb4\xb4\xe7\x94\x9f\xe6\xb4\xbb\xe4\xbf\xa1\xe6\x81\xaf\xe7\xbd\x91\xe4\xbb\x8b\xe7\xbb\x8d.txt 1 http://www.baidu.com
+/install/style.css 1 http://www.baidu.com
+/hack/gather/template/edit_title.htm 1 http://www.baidu.com
+/plus/count/setting.xml 1 http://www.baidu.com
+/xml_language/lang[arabic].xml 1 http://www.baidu.com
+/special 1 http://www.baidu.com
+/plus/search/setting.xml 1 http://www.baidu.com
+/Inc/Southidc.js 1 http://www.baidu.com
+/board/default/board_view.html 1 http://www.baidu.com
+/bbs/Inc/Ads.js 1 http://www.baidu.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 484
+85.17.75.229 1000 1000 18220798 20140307071852
+69.84.207.246 95 95 1511683 20140328233649
+208.115.113.87 62 62 983540 20140331015506
+62.219.8.235 47 48 749572 20140302163510
+82.124.156.63 45 86 920532 20140315190649
+162.243.235.59 44 44 722884 20140304055812
+107.170.10.241 44 44 722884 20140327232148
+162.243.198.188 44 44 722884 20140319120756
+54.72.156.12 44 44 662437 20140328111829
+208.115.111.71 33 33 559566 20140331161946
+157.56.92.153 1 1 16045 20140331114456
+92.132.40.243 5 20 118741 20140329062126
+83.233.207.74 31 31 500456 20140326053031
+86.71.94.182 7 26 173243 20140330145709
+109.21.159.140 7 25 164367 20140330164612
+162.210.196.97 1 1 16045 20140320194906
+80.215.128.5 2 17 68054 20140310171748
+217.69.133.169 1 1 16045 20140310194346
+157.55.35.112 1 5 40429 20140309122251
+157.55.35.99 12 14 215500 20140315074801
+144.76.41.8 2 2 29442 20140308082618
+91.241.251.4 1 1 14231 20140321223603
+157.55.33.181 1 1 16045 20140321231351
+86.133.93.17 1 14 50737 20140313163102
+88.187.197.69 3 16 51969 20140309111613
+157.55.36.36 1 1 16045 20140314115540
+157.55.33.248 2 2 26922 20140308051333
+82.80.244.53 0 3 18383 
+208.43.252.203 9 9 154778 20140330163701
+54.198.10.175 1 1 16045 20140317000003
+157.56.93.84 1 2 18780 20140314225650
+157.56.92.159 4 4 58059 20140313000344
+202.46.62.97 1 1 16045 20140319115053
+91.179.229.168 2 20 80741 20140328232103
+162.242.218.50 1 1 16045 20140305161857
+93.186.202.197 2 2 42250 20140317235514
+157.55.32.28 1 1 14256 20140329094703
+157.56.229.185 1 1 16045 20140319001503
+37.161.189.44 2 20 80741 20140302211243
+83.148.177.73 1 14 50737 20140310220724
+89.92.217.173 9 28 198780 20140326001005
+208.43.225.85 7 7 109133 20140330002644
+157.55.34.28 3 3 47340 20140331150410
+157.55.32.76 2 2 32090 20140327234306
+157.55.32.96 1 1 15212 20140314074154
+77.49.74.140 1 14 50737 20140311102416
+157.55.33.123 1 1 16045 20140329135820
+202.46.56.46 1 1 16045 20140328082234
+157.55.34.171 1 1 15274 20140314184409
+86.205.116.142 6 23 137008 20140329144252
+80.215.199.221 1 19 66760 20140330183225
+202.46.50.19 1 1 16045 20140319001926
+207.182.143.146 3 3 60617 20140307021232
+89.145.219.192 3 21 97041 20140331154815
+157.55.34.27 3 5 51572 20140310043449
+92.135.255.116 5 21 117270 20140313123601
+157.55.35.84 3 3 45660 20140330102546
+65.55.24.244 1 1 17665 20140324153238
+157.56.229.88 1 1 16045 20140318154054
+157.56.93.37 1 1 16045 20140322135252
+46.218.70.58 11 32 237461 20140325085842
+82.146.220.143 1 13 56854 20140312140947
+188.40.249.67 4 4 61123 20140304215852
+157.55.35.77 0 1 3506 
+54.198.255.144 2 2 32090 20140320234415
+109.0.222.197 2 17 73770 20140327084149
+82.80.234.139 0 1 2677 
+157.56.93.40 1 1 16045 20140321192848
+162.222.181.179 1 1 16045 20140323055824
+193.43.252.252 4 4 61123 20140323161221
+157.55.33.112 3 3 47502 20140328141820
+157.55.32.227 0 1 3506 
+157.56.92.172 1 1 16045 20140321132347
+157.56.229.245 1 1 13461 20140301060216
+82.80.234.136 0 1 43 
+65.55.24.237 1 1 15189 20140305120247
+94.208.144.120 2 2 28472 20140315185059
+93.100.188.222 0 1 3748 
+157.55.32.236 2 2 40708 20140322070239
+89.3.96.101 8 28 151185 20140317172649
+185.19.136.1 5 21 123069 20140331154338
+144.76.95.231 1 1 16006 20140313114550
+157.56.93.42 1 1 14232 20140325151241
+157.55.35.95 2 2 49447 20140326101037
+82.237.120.195 5 24 140489 20140304185457
+157.55.36.49 5 5 83357 20140322235223
+157.56.92.142 1 1 16045 20140319035741
+157.55.35.83 1 1 15285 20140328164518
+85.2.77.107 1 15 54406 20140303235146
+46.165.197.151 1 1 16045 20140327032744
+88.165.149.22 3 21 81659 20140330212903
+78.236.206.6 1 19 66760 20140321172831
+192.96.204.42 8 8 32090 20140327080604
+194.126.236.216 3 21 97041 20140312192303
+182.68.119.173 2 2 30586 20140320062116
+23.236.54.115 1 1 16045 20140330010846
+157.55.35.49 0 1 3506 
+157.55.36.39 2 7 57150 20140318053643
+84.5.126.1 11 29 229427 20140311191342
+90.29.160.113 7 26 167813 20140319224803
+46.105.59.74 1 1 0 20140323002245
+157.55.33.250 1 1 16045 20140316003045
+67.87.253.145 1 14 50737 20140323222119
+174.116.248.35 1 14 50737 20140306211325
+157.55.32.86 1 1 16045 20140320220617
+183.60.244.30 5 5 64180 20140318172843
+88.178.249.124 2 20 81603 20140325003051
+217.73.208.27 1 1 16045 20140313014916
+84.98.231.127 5 23 128407 20140319232236
+66.249.93.87 0 2 1682 
+65.55.52.116 1 1 16045 20140331002446
+69.64.32.219 1 1 16045 20140318142200
+157.55.36.46 0 2 3553 
+174.127.133.52 1 1 24663 20140315032347
+157.55.35.104 0 5 2227 
+148.251.14.166 2 2 28472 20140310023446
+144.76.7.10 1 1 17302 20140315083558
+176.9.156.163 19 19 285381 20140309194854
+202.46.60.62 1 1 16045 20140325122019
+157.55.33.249 2 2 39916 20140309052507
+157.55.35.76 1 1 16045 20140329224659
+157.55.33.101 1 1 14233 20140322150754
+157.55.34.101 0 2 3553 
+69.253.165.251 1 1 16045 20140306152653
+157.55.32.116 1 1 15778 20140326113545
+77.40.173.227 3 3 46097 20140325032544
+78.229.79.158 1 1 16045 20140311074715
+202.46.52.25 1 1 16045 20140323082053
+157.56.229.138 1 1 17529 20140316074243
+162.242.244.149 1 1 16045 20140305203848
+157.55.33.29 0 1 47 
+174.127.133.47 5 5 83620 20140315033138
+216.172.56.37 1 1 16045 20140325175937
+216.107.155.114 5 5 72989 20140327211004
+94.164.176.164 2 15 51051 20140308090823
+157.55.33.34 1 1 15209 20140317035609
+88.160.146.142 9 28 183284 20140330185752
+157.55.33.86 1 1 14236 20140320234638
+46.14.185.114 1 16 62762 20140310142611
+109.221.139.197 3 18 84613 20140307203548
+85.170.236.157 2 15 63341 20140306201005
+157.56.93.93 1 1 16045 20140307100740
+157.56.93.62 2 2 30296 20140320181456
+157.55.34.178 1 1 14232 20140304161543
+157.55.32.188 2 2 29442 20140327155235
+157.55.35.31 1 1 16045 20140319120822
+37.59.192.122 12 12 206863 20140314051603
+202.46.60.19 1 1 16045 20140308215010
+162.210.196.98 1 1 16045 20140323204556
+202.46.50.11 1 1 16045 20140321154751
+109.221.22.150 3 29 66681 20140309200332
+79.98.16.81 5 5 0 20140331121501
+174.127.133.50 1 1 16045 20140315023103
+84.7.90.39 6 25 162127 20140303221335
+199.58.86.206 1 1 16045 20140331033252
+83.202.101.92 10 26 198407 20140325125259
+199.30.25.69 0 2 3553 
+65.55.24.247 2 2 35196 20140316125812
+2.5.209.98 1 19 66881 20140318100311
+157.55.33.80 3 3 50840 20140328062223
+65.55.55.230 3 3 48852 20140316205457
+157.55.33.180 4 4 59892 20140328112117
+72.232.221.34 9 9 152602 20140323013759
+46.229.170.197 1 1 16045 20140316221513
+157.56.93.38 1 1 11631 20140301043647
+82.120.136.35 7 26 180918 20140316165249
+157.55.35.98 1 1 14541 20140323193321
+77.199.104.220 7 25 164367 20140306141751
+157.55.33.108 1 1 16045 20140321043810
+157.55.33.97 1 1 15195 20140305024219
+81.251.212.70 1 14 61658 20140325103521
+90.41.122.74 10 26 197441 20140326122848
+157.55.34.104 3 3 49725 20140330201853
+157.55.34.32 2 2 32090 20140324151801
+213.235.2.201 3 47 92980 20140314143905
+117.78.13.29 1 1 16045 20140316084814
+157.55.35.39 0 4 21554 
+157.55.35.78 7 12 117268 20140330223023
+157.55.33.43 1 3 23146 20140305020447
+157.56.229.247 1 1 15253 20140302130356
+157.55.35.35 2 2 33668 20140328190009
+82.80.244.58 0 1 4759 
+217.112.111.6 16 111 519144 20140308225418
+157.55.35.50 1 1 11102 20140321102313
+78.158.11.226 2 2 30586 20140325104345
+157.55.32.39 2 2 32090 20140314082859
+162.210.196.130 1 1 16045 20140303152421
+23.251.148.33 1 1 16045 20140329134443
+162.242.231.225 1 1 16045 20140305225648
+157.56.92.173 1 1 17630 20140327171118
+208.43.251.182 5 5 88814 20140330163807
+54.73.45.177 2 2 32090 20140319003552
+157.56.93.41 1 1 15195 20140302085746
+119.63.193.132 1 1 16045 20140325015858
+27.242.5.53 10 30 207460 20140331215702
+72.233.81.194 9 9 152602 20140309174604
+157.55.33.121 4 4 37060 20140301054005
+157.55.32.237 1 1 16045 20140322162836
+157.55.32.104 1 1 15285 20140302075938
+65.55.52.87 5 5 79662 20140304040934
+157.56.229.186 1 1 15189 20140329112223
+91.179.184.23 3 21 94387 20140302113201
+46.218.143.99 1 13 56854 20140317093611
+65.55.24.243 2 2 32749 20140326184320
+157.55.33.81 2 2 32090 20140308222108
+95.138.172.114 20 20 315681 20140319001319
+121.98.113.22 4 4 75292 20140328115746
+92.153.147.41 12 36 265790 20140307161157
+157.55.32.112 1 1 24663 20140319131628
+84.153.21.179 11 30 229690 20140314121410
+109.131.142.213 14 49 335184 20140312222637
+90.46.81.36 1 16 58701 20140302122713
+62.158.129.208 3 22 102864 20140301142859
+157.56.93.52 9 9 140190 20140330104142
+31.202.241.242 5 5 76149 20140323171835
+105.158.164.14 11 11 254632 20140306205014
+157.55.34.173 5 5 72676 20140330101323
+93.27.42.107 7 24 140352 20140303101742
+65.55.24.236 2 2 32090 20140331023838
+193.111.141.52 3 3 42708 20140331145517
+157.55.32.101 2 2 36294 20140316205803
+213.110.133.221 8 8 128360 20140328213007
+189.142.30.79 9 9 81027 20140321224010
+78.229.26.34 1 14 50737 20140329095758
+92.150.219.37 1 19 66760 20140331110548
+85.179.208.131 1 13 56854 20140311223358
+148.251.8.37 2 2 28472 20140323181649
+86.73.91.232 3 23 101511 20140311174750
+90.190.79.102 1 14 50737 20140325225429
+157.55.33.85 1 2 28290 20140304065645
+159.224.160.42 1 1 16045 20140330182541
+65.55.52.118 1 1 16045 20140317150118
+144.76.176.17 1 1 14236 20140321155402
+109.9.181.235 6 26 133721 20140313165537
+69.64.35.154 1 1 14236 20140319182447
+2.4.104.155 1 16 58701 20140327152956
+78.229.77.55 4 22 110920 20140306134720
+157.55.32.162 5 5 73302 20140331020358
+82.80.234.134 0 2 258 
+92.153.82.83 1 14 50737 20140319174138
+91.151.51.9 1 19 66881 20140306113327
+90.224.77.133 3 16 80789 20140316154201
+157.55.34.99 1 1 16045 20140323185323
+2.136.44.139 26 80 581781 20140326222830
+65.55.24.239 3 3 46792 20140320074201
+157.55.32.222 1 1 18875 20140311013547
+157.55.35.93 1 1 14238 20140314045238
+82.80.244.57 0 2 1839 
+65.55.24.221 3 3 48135 20140314004501
+54.211.219.81 2 2 32090 20140319063943
+157.55.32.184 1 1 16045 20140317204222
+92.157.189.197 7 25 163174 20140307185012
+193.203.48.46 1 1 17733 20140321223609
+79.234.216.193 2 17 69587 20140320090538
+23.251.152.180 1 1 16045 20140328161728
+157.56.93.150 11 11 168477 20140328061837
+95.170.34.229 7 25 165926 20140325201525
+86.7.37.156 17 17 177259 20140312083750
+66.96.183.10 1 1 16045 20140301043038
+199.58.86.211 1 1 16045 20140304221336
+78.126.6.226 3 19 89521 20140323114915
+176.9.34.171 1 1 14236 20140307111129
+90.8.39.234 1 14 50737 20140326164927
+92.90.21.14 3 23 115964 20140321191550
+82.80.234.142 0 2 4658 
+93.4.0.199 5 24 132679 20140330213926
+157.55.32.187 1 1 16045 20140322100126
+95.26.204.189 1 2 19551 20140311015002
+157.55.32.80 2 2 33778 20140316081548
+95.9.129.33 4 4 61123 20140317025032
+202.46.55.55 1 1 16045 20140325015815
+85.2.109.89 12 50 285375 20140302153325
+188.233.85.52 1 1 16045 20140330145956
+2.4.106.217 5 26 154664 20140311182413
+157.55.33.102 1 1 16045 20140323070413
+157.55.32.94 1 1 14232 20140316184348
+157.56.93.95 1 1 24784 20140310174846
+90.48.167.91 2 20 80741 20140330074953
+142.54.184.10 2 2 28472 20140301130559
+157.55.34.100 1 1 16045 20140322185701
+70.32.40.218 1 14 50737 20140303081548
+109.1.196.156 1 13 56854 20140311142956
+192.114.71.13 0 75 1119303 
+109.1.103.108 1 13 56854 20140314141950
+157.55.34.103 7 7 120933 20140320143227
+129.31.212.45 11 38 231477 20140318143105
+157.55.35.47 1 2 21137 20140302092218
+93.159.230.14 6 6 96270 20140329232046
+157.55.35.36 2 2 26848 20140305224545
+157.55.33.105 1 1 16045 20140322150910
+84.101.190.153 1 14 50737 20140325192525
+88.169.135.201 1 14 50737 20140309100503
+90.84.144.74 1 1 15905 20140326095242
+65.55.24.216 2 6 31618 20140312104829
+213.93.229.153 3 19 99506 20140304130942
+82.80.244.54 0 2 21726 
+157.55.32.57 2 2 31265 20140304090648
+119.63.193.195 4 4 64180 20140328082419
+157.55.33.109 2 2 28681 20140321072809
+162.242.214.102 1 1 16045 20140303033136
+132.169.16.55 7 25 167487 20140318130729
+157.55.35.32 1 1 16045 20140323104823
+54.205.227.235 1 1 16045 20140327050152
+178.197.236.163 1 1 16045 20140308184344
+23.23.222.104 1 1 16045 20140313083417
+78.46.43.132 1 1 16310 20140312045801
+82.80.244.59 0 4 4620 
+148.251.11.149 1 1 16045 20140323070007
+157.55.32.190 1 1 16045 20140312021123
+198.100.148.142 10 10 158630 20140319032527
+192.95.29.70 1 1 16045 20140327115633
+178.197.230.108 3 21 103340 20140309134045
+157.56.92.174 3 6 50257 20140311062423
+157.55.32.55 2 2 30456 20140306010632
+164.131.224.225 3 20 89280 20140311104505
+92.90.20.210 10 37 206876 20140302103755
+89.86.124.153 7 26 142849 20140326112402
+78.237.245.103 6 24 127224 20140329172000
+157.55.33.78 2 2 32090 20140327150713
+209.147.100.246 1 14 50737 20140321022941
+157.55.32.225 1 1 13461 20140303211902
+79.133.141.1 1 1 16045 20140318033115
+157.55.33.146 1 1 24663 20140303221138
+54.215.156.255 7 7 107560 20140317193751
+92.103.71.138 1 14 50737 20140331114655
+157.55.34.166 3 3 47301 20140314225211
+157.55.33.96 1 1 15217 20140313115524
+199.58.86.209 1 1 16045 20140301233618
+83.205.0.225 6 24 149626 20140321120258
+157.56.229.187 5 5 80225 20140325103512
+157.55.35.51 4 8 60554 20140305020608
+54.240.197.2 1 1 16045 20140318120503
+162.242.245.171 1 1 16045 20140305194952
+109.200.159.118 4 4 61123 20140321041517
+109.208.204.235 6 24 179755 20140329145542
+23.251.147.144 1 1 16045 20140327232532
+162.222.178.242 1 1 16045 20140327015507
+92.158.225.28 8 26 177728 20140312175052
+46.165.197.141 1 1 16045 20140308201030
+119.63.193.194 1 1 16045 20140308215036
+46.4.113.114 1 1 15905 20140323081421
+86.204.7.173 1 19 66760 20140309092945
+82.80.244.55 0 3 6719 
+90.11.85.177 4 22 83018 20140319211041
+202.46.49.18 1 1 16045 20140322221929
+82.80.234.138 0 2 1860 
+157.55.32.154 3 3 47375 20140316121130
+199.217.118.68 2 2 28472 20140317160819
+157.55.34.98 1 1 15211 20140314131426
+174.127.132.10 1 1 16045 20140315011139
+117.78.13.18 1 1 16045 20140325190732
+83.77.150.65 15 45 312679 20140326211222
+62.23.91.202 1 13 56854 20140321100745
+157.55.33.88 4 4 62485 20140322231635
+108.59.8.80 1 1 16045 20140317192959
+93.211.134.79 9 27 197156 20140306190454
+78.229.24.249 3 23 101477 20140302212808
+157.55.33.106 5 5 79378 20140307041937
+208.43.225.84 10 10 155897 20140330002625
+80.14.78.183 1 14 50737 20140304172632
+142.54.184.18 1 1 16045 20140326211839
+69.58.178.57 11 11 180134 20140317073958
+157.56.93.96 1 1 16045 20140303174022
+162.242.232.61 1 1 16045 20140305165056
+208.90.57.196 10 10 146776 20140302153428
+199.30.24.41 0 13 34692 
+157.56.93.82 3 3 54309 20140316215506
+95.171.137.237 11 29 225199 20140311194602
+78.232.148.203 2 17 69587 20140309115825
+148.251.75.46 1 1 24663 20140305081146
+31.158.116.54 4 17 78716 20140308232627
+157.56.92.158 3 3 56753 20140315113134
+192.162.143.101 9 9 81027 20140321223841
+82.80.234.140 0 1 43 
+79.94.113.150 1 19 66760 20140329182648
+157.55.33.50 1 1 17597 20140308173705
+65.55.24.245 3 3 45667 20140330102905
+109.130.219.210 3 21 97041 20140330175218
+70.199.128.230 1 16 58015 20140303205434
+208.43.245.104 10 10 171935 20140330163748
+46.165.197.142 1 1 16045 20140319000422
+5.48.93.156 2 15 65763 20140319105442
+148.251.71.5 4 4 61123 20140303205703
+77.205.96.15 1 2 19551 20140321195521
+157.55.35.90 6 6 106422 20140328062305
+74.52.245.146 1 1 16045 20140305210842
+108.12.23.139 1 1 14236 20140319123945
+90.16.165.107 1 14 54305 20140325172534
+54.245.33.250 1 1 16045 20140320011003
+89.85.240.65 1 14 50737 20140330154619
+157.55.36.35 1 1 14256 20140312100125
+157.55.32.54 1 1 17631 20140329172151
+89.45.14.80 1 1 16045 20140320133123
+157.56.229.244 1 1 22219 20140329054507
+157.55.32.100 4 4 64129 20140322232104
+37.58.154.147 3 20 94427 20140328161606
+173.208.129.58 1 1 29417 20140305095154
+65.55.24.217 1 1 16045 20140321101432
+157.56.229.190 1 1 16045 20140323152432
+88.198.16.153 1 1 14236 20140305140858
+157.55.35.48 2 2 32090 20140328215510
+157.55.32.89 0 2 3553 
+92.131.36.242 1 13 56854 20140312113008
+86.204.86.234 27 49 487297 20140307113526
+151.76.89.219 4 23 113763 20140307085839
+202.46.58.36 1 1 16045 20140307135612
+87.97.221.146 1 1 16045 20140317185407
+157.55.35.46 1 1 17617 20140331141112
+94.225.109.101 4 22 113341 20140316084742
+54.215.135.84 3 3 46097 20140323201405
+188.118.0.193 8 26 174762 20140318120059
+157.55.35.42 4 4 61129 20140321050120
+157.55.35.37 1 1 17412 20140320234014
+2.123.57.130 2 20 80741 20140329175839
+50.135.241.149 1 14 50737 20140317075836
+8.35.201.45 1 1 16045 20140321143959
+198.74.231.31 2 2 28472 20140329123404
+178.197.236.183 1 16 62762 20140312055144
+108.59.8.70 2 2 32090 20140311142835
+65.36.158.75 1 1 16045 20140311003544
+84.63.167.159 4 23 123328 20140305171243
+157.55.33.17 3 3 49707 20140314162852
+157.56.229.23 0 4 21554 
+157.55.33.45 3 3 48135 20140329192901
+157.55.33.30 2 2 32090 20140319231731
+31.132.79.58 1 1 14541 20140329113230
+157.56.93.94 6 6 82180 20140326145157
+89.157.219.133 6 24 143028 20140323111609
+65.55.55.231 1 1 18760 20140323031502
+82.145.210.158 5 30 144810 20140322182706
+157.55.32.83 7 7 128638 20140312103813
+193.252.210.31 1 1 16045 20140317181407
+109.25.23.101 1 14 50737 20140319222501
+157.56.93.49 1 2 21035 20140305154659
+109.0.35.16 2 17 69587 20140317122217
+148.251.11.140 1 1 16045 20140307153655
+193.200.139.65 1 1 16045 20140328055619
+119.63.193.196 3 3 48135 20140323082236
+84.57.36.202 5 23 136160 20140324171859
+86.71.178.59 2 15 51655 20140324154616
+217.128.119.134 5 23 125366 20140312120256
+5.49.46.119 1 15 54406 20140301200302
+78.223.145.194 3 22 108734 20140330185504
+86.211.26.214 3 15 93614 20140308165935
+157.55.35.96 1 1 15211 20140327232114
+157.55.34.93 6 6 76808 20140306003410
+65.55.52.112 4 4 73328 20140325110726
+157.55.35.81 1 1 18804 20140331002354
+157.55.32.110 3 3 50164 20140315210009
+65.55.24.214 2 2 32090 20140313115003
+144.76.92.233 5 5 73137 20140312011821
+222.77.213.216 1 1 16045 20140329234415
+91.151.74.5 4 58 172164 20140307175307
+202.46.52.30 1 1 16045 20140305235154
+91.91.78.11 6 25 150109 20140316184344
+81.204.252.150 9 27 209767 20140302195913
+78.47.47.188 1 1 16045 20140314025633
+82.80.244.56 0 2 26047 
+93.192.68.194 9 29 190760 20140312190946
+83.103.189.110 4 4 58164 20140314144851
+84.228.167.86 1 1 15778 20140323180746
+157.55.33.49 1 2 17739 20140311024323
+92.149.20.160 2 20 80741 20140324223016
+88.198.56.239 1 1 24663 20140311232403
+194.2.122.158 1 1 0 20140315190644
+88.138.251.146 1 1 16045 20140325212717
+78.229.77.58 6 24 155842 20140309134216
+31.32.174.183 3 18 84613 20140307203124
+119.63.193.130 2 2 32090 20140321154808
+157.55.33.83 6 6 93116 20140330154150
+157.55.33.95 1 1 16045 20140321005715
+82.80.244.52 0 4 287355 
+80.11.57.1 2 20 80741 20140308123213
+157.56.93.83 1 1 17587 20140327082121
+90.39.4.127 12 47 274554 20140317195530
+109.68.191.150 4 4 61123 20140320083933
+109.214.45.72 1 14 50737 20140318095810
+157.55.34.25 2 2 49326 20140308051525
+176.9.72.102 1 1 16045 20140311111414
+157.55.32.75 4 4 64180 20140331025048
+88.138.178.77 12 31 264356 20140327062434
+90.27.237.185 32 57 580112 20140303184916
+174.127.133.48 1 1 22219 20140315033507
+74.112.203.116 2 2 28472 20140313173117
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20140301 19 52 359942 13
+20140302 108 369 3604851 20
+20140303 71 175 1397945 24
+20140304 70 119 1287312 17
+20140305 34 66 642851 27
+20140306 45 144 1056484 16
+20140307 1077 1244 19876581 23
+20140308 54 205 1288044 24
+20140309 60 194 1257535 21
+20140310 22 79 496060 19
+20140311 54 187 1250825 26
+20140312 79 228 1620260 24
+20140313 26 75 522747 16
+20140314 49 124 918555 26
+20140315 72 114 1368417 19
+20140316 42 111 889535 20
+20140317 71 205 1454974 28
+20140318 45 125 875634 19
+20140319 110 217 2051455 32
+20140320 31 52 546902 22
+20140321 57 139 1035624 29
+20140322 35 61 599319 20
+20140323 50 99 906175 25
+20140324 22 71 468345 14
+20140325 87 255 1880420 33
+20140326 89 199 1711682 18
+20140327 68 98 1189294 20
+20140328 183 218 2975994 25
+20140329 52 188 1207417 25
+20140330 110 270 2217164 30
+20140331 35 120 758935 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 16
+0s-30s 577
+15mn-30mn 9
+2mn-5mn 31
+30s-2mn 46
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/product.php4 985 16996182 137 154
+/product_list.php4 862 15793059 105 169
+/ 479 7405579 376 279
+/recettes.php4 139 2163831 22 21
+/cart.php4 108 1262889 2 13
+/login.php4 99 1222591 16 9
+/cgdv.php4 93 2066049 17 21
+/index.php 58 954899 8 11
+/contact.php4 55 828192 8 12
+//account.php4 16 298824 0 1
+//cart.php4 8 138293 0 0
+/confirm.php4 1 12661 0 1
+//index.php 1 16020 0 0
+/inc/e-transaction/autoresponse.php 1 0 1 1
+//login.php4 6 73448 1 1
+//product_list.php4 10 169263 0 0
+/mentions.php 3 5370 0 0
+//checkout.php4 3 50950 0 0
+END_SIDER
